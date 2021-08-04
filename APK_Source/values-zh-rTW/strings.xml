@@ -2489,9 +2489,7 @@ Tap here to learn more"</string>
     <string name="global_value_outside_range">Value is outside the range</string>
     <string name="global_value_slash_separator">/</string>
     <string name="global_value_time_zone">%1$s (UTC%2$s:%3$d)</string>
-    <string name="google_api_key">AIzaSyDYfDOFDshZ02CGQzHtofSvY02jX0tTbJk</string>
     <string name="google_app_id">1:445835498946:android:95ef5d40fd52f768</string>
-    <string name="google_crash_reporting_api_key">AIzaSyDYfDOFDshZ02CGQzHtofSvY02jX0tTbJk</string>
     <string name="google_storage_bucket">unifi-mobile-app.appspot.com</string>
     <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="hotspot_manager_voucher_print_batch_dialog_action_negative">@string/global_action_cancel</string>
