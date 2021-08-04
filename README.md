@@ -17,7 +17,7 @@
 ### 契機
 >我們可以從反編譯出來的檔案中看到官方的繁體化可能完成不到 10% 吧，可是看不到繁體有時候真的不開心，所以決定反編譯後重新翻譯打包
 *  首先 Unifi 官方將以翻譯的部分語言檔完全的封鎖  
-我們可以在 smali_classes2\com\ubnt\UnifiConfig.smali 中找到 USE_ONLY_EN_LOCALE  
+我們可以在 `smali_classes2\com\ubnt\UnifiConfig.smali` 中找到 `USE_ONLY_EN_LOCALE`  
 可以看倒是開啟的狀態，代表官方目前可能暫時沒有想把語系搞好的意思QQ
 *  我們可以從反編譯後的語言檔案檔案中看到官方的翻譯很不完整，甚至不到 10%
 ![1](https://github.com/cracky5322/UniFi-Network-Apk-zh_TW/blob/main/image/1.png?raw=true "1")
