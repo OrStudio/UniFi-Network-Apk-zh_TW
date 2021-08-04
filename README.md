@@ -22,7 +22,8 @@
 
 *  首先 Unifi 官方將以翻譯的部分語言檔完全封鎖  
 我們可以在 `smali_classes2\com\ubnt\UnifiConfig.smali` 中找到 `USE_ONLY_EN_LOCALE`  
-可以看到是開啟(true)的狀態，~~當然還有其他地方只是我很懶~~QQ
+可以看到是開啟(true)的狀態，這個部份我已經在放上反編譯後的程式碼中做了修正，  
+基本上我們可以修改 values-zh-rTW 中的語系即可完成翻譯。
 
 *  我們可以從反編譯後的語言檔案檔案中看到官方的翻譯很不完整，甚至不到 10%
 ![1](https://github.com/cracky5322/UniFi-Network-Apk-zh_TW/blob/main/image/1.png?raw=true "1")
@@ -39,7 +40,7 @@
 ![screenshot-4](https://github.com/cracky5322/UniFi-Network-Apk-zh_TW/blob/main/image/screenshot/4.png?raw=true "screenshot-4")
 ![screenshot-5](https://github.com/cracky5322/UniFi-Network-Apk-zh_TW/blob/main/image/screenshot/5.png?raw=true "screenshot-5")
 ### 感謝名單
-*  炸鍋|網抑云|社恐十級|回墳里了(@MiSmartAirFryer) - 協助我確認封鎖語系大佬
+*  炸鍋|網抑云|社恐十級|回墳里了(@MiSmartAirFryer) - 協助我確認封鎖語系大佬(20210804)
 *  ~~我可以感謝自己嗎?~~
 
 ## 下載/安裝
