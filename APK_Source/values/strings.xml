@@ -34,7 +34,7 @@
     <string name="ab_title_settings_guest_control">Guest Control</string>
     <string name="ab_title_settings_hotspot_manager">Hotspot Manager</string>
     <string name="ab_title_settings_maintenance">維護</string>
-    <string name="ab_title_settings_networks">Networks</string>
+    <string name="ab_title_settings_networks">網路</string>
     <string name="ab_title_settings_site">Site</string>
     <string name="ab_title_settings_user_group_list">Bandwidth Profiles</string>
     <string name="ab_title_settings_wireless_networks">Wireless Networks</string>
@@ -125,13 +125,13 @@ The credentials will be applied to your device the next time you save its config
     <string name="add_client_dialog_invalid_fixed_ip_error_message">Invalid Fixed IP.</string>
     <string name="add_client_dialog_ip_address_hint">IP Address</string>
     <string name="add_client_dialog_mac_address_hint">MAC Address</string>
-    <string name="add_client_dialog_network">Network</string>
+    <string name="add_client_dialog_network">網路</string>
     <string name="add_client_dialog_note_hint">Note</string>
     <string name="add_client_dialog_submit">Save</string>
     <string name="advanced_features_network_isolation_add">Add Network Isolation</string>
     <string name="advanced_features_network_isolation_create_dhcp_guarding_description">Configure UniFi switches to restrict DHCP servers on this network to IP(s) specified here. All other IPs attempting to serve DHCP will have the DHCP response blocked, and an alert will be generated in the controller</string>
     <string name="advanced_features_network_isolation_create_igmp_snooping_description">Allow switches to monitor IGMP traffic and determine which hosts have joined multicast groups. Hosts will not receive traffic unrelated to their multicast groups</string>
-    <string name="advanced_features_network_isolation_create_name">Name</string>
+    <string name="advanced_features_network_isolation_create_name">名稱</string>
     <string name="advanced_features_network_isolation_create_name_hint">Enter name</string>
     <string name="advanced_features_network_isolation_create_save">Save</string>
     <string name="advanced_features_network_isolation_create_title">Add Network Isolation</string>
@@ -143,7 +143,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="advanced_features_network_isolation_detail_delete_dialog_title">Delete Network</string>
     <string name="advanced_features_network_isolation_detail_disabled">Disabled</string>
     <string name="advanced_features_network_isolation_detail_enabled">Enabled</string>
-    <string name="advanced_features_network_isolation_detail_remove_profile">Remove this Network</string>
+    <string name="advanced_features_network_isolation_detail_remove_profile">刪除此網絡</string>
     <string name="advanced_features_network_isolation_dhcp_guarding">DHCP Guarding</string>
     <string name="advanced_features_network_isolation_dhcp_trusted_server_required_error">Please enter at least one trusted DHCP server IP address</string>
     <string name="advanced_features_network_isolation_igmp_snooping">IGMP Snooping</string>
@@ -151,7 +151,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="advanced_features_network_isolation_list_empty_text">No active Network Isolations</string>
     <string name="advanced_features_network_isolation_list_title">網絡隔離</string>
     <string name="advanced_features_network_isolation_load_error">Could not load network data</string>
-    <string name="advanced_features_network_isolation_name">Name</string>
+    <string name="advanced_features_network_isolation_name">名稱</string>
     <string name="advanced_features_network_isolation_name_error">Network Name cannot be empty</string>
     <string name="advanced_features_network_isolation_name_too_long_error">Network Name must be at most 32 characters</string>
     <string name="advanced_features_network_isolation_save">Save</string>
@@ -203,7 +203,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bandwidth_profile_create_add_title">Add Bandwidth Profile</string>
     <string name="bandwidth_profile_create_download_limit">Limit download bandwidth</string>
-    <string name="bandwidth_profile_create_name">Name</string>
+    <string name="bandwidth_profile_create_name">名稱</string>
     <string name="bandwidth_profile_create_name_error">Profile Name cannot be empty</string>
     <string name="bandwidth_profile_create_name_hint">Enter name</string>
     <string name="bandwidth_profile_create_save">Save</string>
@@ -215,7 +215,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="bandwidth_profile_detail_delete_dialog_title">Delete Profile</string>
     <string name="bandwidth_profile_detail_download_limit">Download Limit</string>
     <string name="bandwidth_profile_detail_load_error">Could not load profile data</string>
-    <string name="bandwidth_profile_detail_name">Name</string>
+    <string name="bandwidth_profile_detail_name">名稱</string>
     <string name="bandwidth_profile_detail_remove_profile">Remove this Profile</string>
     <string name="bandwidth_profile_detail_upload_limit">Upload Limit</string>
     <string name="bandwidth_profile_edit_title">Edit Bandwidth Profile</string>
@@ -254,7 +254,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="client_detail_configure_fixed_ip_label">Use fixed IP address</string>
     <string name="client_detail_configure_fixed_ip_network_item_unknown">Unknown Network</string>
     <string name="client_detail_configure_fixed_ip_network_tap_row_fallback">Select a Network</string>
-    <string name="client_detail_configure_fixed_ip_network_tap_row_label">Network</string>
+    <string name="client_detail_configure_fixed_ip_network_tap_row_label">網路</string>
     <string name="client_detail_configure_fixed_ip_network_tap_row_unknown">Unknown Network</string>
     <string name="client_detail_configure_fixed_ip_networks_list_title">Select a Network</string>
     <string name="client_detail_configure_fixed_ip_process_error_message">Failed apply fixed ip settings. Please try again.</string>
@@ -328,7 +328,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="client_detail_usage_history">History</string>
     <string name="client_detail_usage_item_activity_placeholder">123.4 MB</string>
     <string name="client_detail_usage_item_unknown_name">Unknown</string>
-    <string name="client_detail_usage_list_name">Name</string>
+    <string name="client_detail_usage_list_name">名稱</string>
     <string name="client_detail_usage_unknown_error">Failed to get Client Usage data!</string>
     <string name="client_item_port_format">\#%1$d</string>
     <string name="client_list_add">Add New Client</string>
@@ -344,7 +344,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="client_list_field_identity">802.1X Identity</string>
     <string name="client_list_field_ip">IP Address</string>
     <string name="client_list_field_mac">Mac Address</string>
-    <string name="client_list_field_name">Name</string>
+    <string name="client_list_field_name">名稱</string>
     <string name="client_list_field_signal">Signal Strength</string>
     <string name="client_list_field_uptime">Uptime</string>
     <string name="client_list_filter_blocked_day">Day</string>
@@ -435,7 +435,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="clients_sort_connection">Connection</string>
     <string name="clients_sort_identity">802.1X Identity</string>
     <string name="clients_sort_ip">IP Address</string>
-    <string name="clients_sort_name">Name</string>
+    <string name="clients_sort_name">名稱</string>
     <string name="clients_sort_signal">Signal Strength</string>
     <string name="clients_sort_title">Sort by…</string>
     <string name="clients_sort_uptime">Uptime</string>
@@ -470,9 +470,9 @@ The credentials will be applied to your device the next time you save its config
     <string name="control_center_complete_link">unifi.ui.com</string>
     <string name="control_center_complete_settings">Access complete settings at</string>
     <string name="control_center_menu_item_advanced">進階選項</string>
-    <string name="control_center_menu_item_internet">Internet</string>
+    <string name="control_center_menu_item_internet">網際網路</string>
     <string name="control_center_menu_item_more">其他選項</string>
-    <string name="control_center_menu_item_networks">Networks</string>
+    <string name="control_center_menu_item_networks">網路</string>
     <string name="control_center_menu_item_security">Security</string>
     <string name="control_center_menu_item_system">系統設定</string>
     <string name="control_center_menu_item_wifi">WiFi</string>
@@ -529,7 +529,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="controller_setup_form_internet_test_download_title">Internet Download Test</string>
     <string name="controller_setup_form_internet_test_download_title_short">vu84y93</string>
     <string name="controller_setup_form_internet_test_failed_toast">Internet speed test has failed.</string>
-    <string name="controller_setup_form_internet_test_internet">Internet</string>
+    <string name="controller_setup_form_internet_test_internet">網際網路</string>
     <string name="controller_setup_form_internet_test_isp">Your Internet Service Provider:&lt;br/>%1$s to %2$s in %3$s.</string>
     <string name="controller_setup_form_internet_test_isp_county">in %1$s</string>
     <string name="controller_setup_form_internet_test_isp_org">to %1$s</string>
@@ -675,12 +675,12 @@ Talk: %s"</string>
     <string name="controller_wizard_ap_exit_dialog_message">Do you really want to exit AP setup wizard?</string>
     <string name="controller_wizard_ap_exit_dialog_title">Exit AP wizard?</string>
     <string name="controller_wizard_ap_name_description">This will serve as a unique way to identify this element.</string>
-    <string name="controller_wizard_ap_name_hint">Name</string>
+    <string name="controller_wizard_ap_name_hint">名稱</string>
     <string name="controller_wizard_ap_name_title">Name your Device</string>
     <string name="controller_wizard_ap_names_edit">Edit device names</string>
     <string name="controller_wizard_ap_names_hint">%1$s devices detected.</string>
     <string name="controller_wizard_ap_names_hint_fallback">New devices detected.</string>
-    <string name="controller_wizard_ap_names_item_name_title">Name</string>
+    <string name="controller_wizard_ap_names_item_name_title">名稱</string>
     <string name="controller_wizard_ap_names_title">Add Network Devices</string>
     <string name="controller_wizard_ap_names_title_short">Add Devices</string>
     <string name="controller_wizard_ap_names_validation_message">One or more devices have an invalid name!</string>
@@ -744,7 +744,7 @@ Talk: %s"</string>
     <string name="dashboard_clients_lan_unavailable">-</string>
     <string name="dashboard_clients_wlan_unavailable">-</string>
     <string name="dashboard_gateway_unavailable">No UniFi Security Gateway detected.</string>
-    <string name="dashboard_internet">Internet</string>
+    <string name="dashboard_internet">網際網路</string>
     <string name="dashboard_internet_connectivity_warning">No Internet connection</string>
     <string name="dashboard_internet_download">下載</string>
     <string name="dashboard_internet_download_unavailable">-</string>
@@ -765,7 +765,7 @@ Talk: %s"</string>
     <string name="dashboard_speed_test_error_start">Could not start Internet speed test.</string>
     <string name="dashboard_speed_test_error_title">Speed Test Failed</string>
     <string name="dashboard_speed_test_error_upload">Speed test got stuck while testing upload speed.</string>
-    <string name="dashboard_speed_test_internet">Internet</string>
+    <string name="dashboard_speed_test_internet">網際網路</string>
     <string name="dashboard_speed_test_isp_label">Your Internet Service Provider:</string>
     <string name="dashboard_speed_test_isp_value">%1$s to Ubiquiti server in %2$s.</string>
     <string name="dashboard_speed_test_result_adjust_description">This will be used to determine problems with your Internet. Your Internet Service Provider plan provides this information.</string>
@@ -776,7 +776,7 @@ Talk: %s"</string>
     <string name="dashboard_speed_test_result_description_fallback">Connection to nearest Ubiquiti server</string>
     <string name="dashboard_speed_test_result_description_provider_country">%1$s to server in %2$s</string>
     <string name="dashboard_speed_test_result_download">Download Speed</string>
-    <string name="dashboard_speed_test_result_internet">INTERNET</string>
+    <string name="dashboard_speed_test_result_internet">網際網路</string>
     <string name="dashboard_speed_test_result_latency">Latency</string>
     <string name="dashboard_speed_test_result_mbps">Mbps</string>
     <string name="dashboard_speed_test_result_ms">ms</string>
@@ -861,7 +861,7 @@ Talk: %s"</string>
     <string name="device_list_restart_dialog_message_fallback">Are you sure want to restart device(s)?</string>
     <string name="device_list_sort_dialog_ip_address">IP Address</string>
     <string name="device_list_sort_dialog_model">Model</string>
-    <string name="device_list_sort_dialog_name">Name</string>
+    <string name="device_list_sort_dialog_name">名稱</string>
     <string name="device_list_sort_dialog_sort_by">Sort by…</string>
     <string name="device_list_sort_dialog_status">Status</string>
     <string name="device_list_sort_dialog_uptime">Uptime</string>
@@ -1125,9 +1125,9 @@ Talk: %s"</string>
     <string name="dialog_device_detail_config_networks_vlans_delete_caption_text">Are you sure you want to delete the %s configuration?</string>
     <string name="dialog_device_detail_config_networks_vlans_delete_positive_text">Confirm</string>
     <string name="dialog_device_detail_config_networks_vlans_delete_title">Delete %s</string>
-    <string name="dialog_device_detail_config_networks_vlans_edit_positive_text">Edit</string>
+    <string name="dialog_device_detail_config_networks_vlans_edit_positive_text">編輯</string>
     <string name="dialog_device_detail_config_networks_vlans_edit_title">Edit network/vlan</string>
-    <string name="dialog_device_detail_config_networks_vlans_name_hint">Name</string>
+    <string name="dialog_device_detail_config_networks_vlans_name_hint">名稱</string>
     <string name="dialog_device_detail_config_networks_vlans_negative_text">取消</string>
     <string name="dialog_device_detail_config_networks_vlans_view_positive_text">確認</string>
     <string name="dialog_device_detail_config_networks_vlans_view_title">Network/vlan</string>
@@ -1269,7 +1269,7 @@ Could you please send us an email describing what makes you unsatisfied with the
     <string name="dialog_port_forward_from_title_text">From</string>
     <string name="dialog_port_forward_ip_invalid">IP address is not valid</string>
     <string name="dialog_port_forward_limited_value_hint">IP address, a range of IP addresses separated by a dash (-), or a subnet</string>
-    <string name="dialog_port_forward_name_hint">Name</string>
+    <string name="dialog_port_forward_name_hint">名稱</string>
     <string name="dialog_port_forward_port_hint">Port</string>
     <string name="dialog_port_forward_protocol_both_text">Both</string>
     <string name="dialog_port_forward_protocol_tcp_text">TCP</string>
@@ -1378,7 +1378,7 @@ Could you please send us an email describing what makes you unsatisfied with the
     <string name="discovery_select_connection">Connection</string>
     <string name="discovery_select_connection_ble">Bluetooth</string>
     <string name="discovery_select_connection_message">%1$s is not connected to this UniFi OS Console!</string>
-    <string name="discovery_select_connection_network">Network</string>
+    <string name="discovery_select_connection_network">網路</string>
     <string name="discovery_select_distance">Distance</string>
     <string name="discovery_select_ip_address">IP Address</string>
     <string name="discovery_select_mac_message">Mac Address (Last 4 digits): %1$s</string>
@@ -1449,8 +1449,8 @@ Try it again."</string>
     <string name="fragment_client_detail_configuration_general_title_text">General</string>
     <string name="fragment_client_detail_configuration_network_fixed_ip_text">Use fixed IP address</string>
     <string name="fragment_client_detail_configuration_network_ip_address_hint">IP Address</string>
-    <string name="fragment_client_detail_configuration_network_title">Network</string>
-    <string name="fragment_client_detail_configuration_network_title_text">Network</string>
+    <string name="fragment_client_detail_configuration_network_title">網路</string>
+    <string name="fragment_client_detail_configuration_network_title_text">網路</string>
     <string name="fragment_client_detail_configuration_saved">The changes were successfully saved</string>
     <string name="fragment_client_detail_configuration_user_group_automatic">Automatic</string>
     <string name="fragment_client_detail_configuration_user_group_title">User Group</string>
@@ -1489,7 +1489,7 @@ Try it again."</string>
     <string name="fragment_configuration_inform_failed">Inform failed. Please set correct IP address in app settings.</string>
     <string name="fragment_configuration_ip_config_not_implemented_error">Ip configuration not yet implemented</string>
     <string name="fragment_configuration_network_configure_ip_title_text">Configure IP</string>
-    <string name="fragment_configuration_network_title_text">Network</string>
+    <string name="fragment_configuration_network_title_text">網路</string>
     <string name="fragment_configuration_password_min_length">Minimum password length is 5 characters.</string>
     <string name="fragment_configuration_please_wait">Please wait …</string>
     <string name="fragment_configuration_radio_5g_wlan_same_as_2g_text">Same as 2G?</string>
@@ -1643,7 +1643,7 @@ Try it again."</string>
     <string name="fragment_device_detail_configuration_network_port_aggregation_description">Make sure to enable port aggregation on the downstream switch AFTER enabling port aggregation on the AP.</string>
     <string name="fragment_device_detail_configuration_network_port_aggregation_disabled">Disabled</string>
     <string name="fragment_device_detail_configuration_network_port_aggregation_enabled">Enabled</string>
-    <string name="fragment_device_detail_configuration_network_title_text">Network</string>
+    <string name="fragment_device_detail_configuration_network_title_text">網路</string>
     <string name="fragment_device_detail_configuration_networks_vlans_create_text">Create</string>
     <string name="fragment_device_detail_configuration_networks_vlans_title_text">Networks/Vlans</string>
     <string name="fragment_device_detail_configuration_port_conf_added">PortConf added</string>
@@ -1654,7 +1654,7 @@ Try it again."</string>
     <string name="fragment_device_detail_configuration_port_forward_item_actions_text">Actions</string>
     <string name="fragment_device_detail_configuration_port_forward_item_destination_text">Dest IP/Port</string>
     <string name="fragment_device_detail_configuration_port_forward_item_from_text">From</string>
-    <string name="fragment_device_detail_configuration_port_forward_item_name_text">Name</string>
+    <string name="fragment_device_detail_configuration_port_forward_item_name_text">名稱</string>
     <string name="fragment_device_detail_configuration_port_forward_item_port_text">Port</string>
     <string name="fragment_device_detail_configuration_port_forward_updated">Port forward updated</string>
     <string name="fragment_device_detail_configuration_radios_2g_title_text">Radio 2G (11n/b/g)</string>
@@ -1748,7 +1748,7 @@ Try it again."</string>
     <string name="fragment_device_detail_device_upgrading">Device upgrading</string>
     <string name="fragment_device_detail_network_list_clients_title_text">客戶端</string>
     <string name="fragment_device_detail_network_list_ip_title_text">IP</string>
-    <string name="fragment_device_detail_network_list_network_title_text">Network</string>
+    <string name="fragment_device_detail_network_list_network_title_text">網路</string>
     <string name="fragment_device_detail_network_list_rx_title_text">↓ RX</string>
     <string name="fragment_device_detail_network_list_tx_title_text">↑ TX</string>
     <string name="fragment_device_detail_overview_broadcast_text">Start UniFi EDU</string>
@@ -1756,7 +1756,7 @@ Try it again."</string>
     <string name="fragment_device_detail_port_list_item_power_cycle_caption_text">Power Cycle</string>
     <string name="fragment_device_detail_port_list_power_cycled">Port %1$d on %2$s was successfully power cycled</string>
     <string name="fragment_device_detail_ports_list_actions_title_text">Actions</string>
-    <string name="fragment_device_detail_ports_list_name_title_text">Name</string>
+    <string name="fragment_device_detail_ports_list_name_title_text">名稱</string>
     <string name="fragment_device_detail_ports_list_poe_title_text">PoE</string>
     <string name="fragment_device_detail_ports_list_port_title_text">Port</string>
     <string name="fragment_device_detail_ports_list_status_title_text">Status</string>
@@ -1809,7 +1809,7 @@ Try it again."</string>
     <string name="fragment_port_detail_aggregate_ports_from_hint">From</string>
     <string name="fragment_port_detail_aggregate_ports_title_text">Aggregate Ports</string>
     <string name="fragment_port_detail_aggregate_ports_to_hint">To</string>
-    <string name="fragment_port_detail_alias_hint">Name</string>
+    <string name="fragment_port_detail_alias_hint">名稱</string>
     <string name="fragment_port_detail_full_duplex_spinner_title_text">Link Speed</string>
     <string name="fragment_port_detail_isolation_checkbox_text">Enable port isolation</string>
     <string name="fragment_port_detail_isolation_title_text">Isolation</string>
@@ -1844,10 +1844,10 @@ Try it again."</string>
     <string name="fragment_settings_admin_detail_created">Admin invited</string>
     <string name="fragment_settings_admin_detail_email_hint">Email</string>
     <string name="fragment_settings_admin_detail_invite_text">Enable Remote Access</string>
-    <string name="fragment_settings_admin_detail_name_hint">Name</string>
+    <string name="fragment_settings_admin_detail_name_hint">名稱</string>
     <string name="fragment_settings_admin_detail_role_title_text">Role</string>
     <string name="fragment_settings_admin_list_deleted">Admin deleted</string>
-    <string name="fragment_settings_admin_list_item_edit_text">Edit</string>
+    <string name="fragment_settings_admin_list_item_edit_text">編輯</string>
     <string name="fragment_settings_admin_list_item_role_admin">Administrator</string>
     <string name="fragment_settings_admin_list_item_role_readonly">Read only</string>
     <string name="fragment_settings_admin_list_item_role_super_admin">Super Administrator</string>
@@ -1881,7 +1881,7 @@ Try it again."</string>
     <string name="fragment_settings_controller_mail_server_smtp_server_test_button_text">Send</string>
     <string name="fragment_settings_controller_mail_server_smtp_server_title_text">SMTP Server</string>
     <string name="fragment_settings_controller_mail_server_title_text">Mail Server</string>
-    <string name="fragment_settings_controller_name_hint">Name</string>
+    <string name="fragment_settings_controller_name_hint">名稱</string>
     <string name="fragment_settings_controller_network_discovery_text">Make UniFi OS Console discoverable on L2 Network</string>
     <string name="fragment_settings_controller_network_discovery_title_text">Network Discovery</string>
     <string name="fragment_settings_controller_override_inform_host_text">Override inform host with UniFi OS Console Hostname/IP</string>
@@ -1895,7 +1895,7 @@ Try it again."</string>
     <string name="fragment_settings_guest_control_authentication_no_text">No authentication</string>
     <string name="fragment_settings_guest_control_authentication_password_text">Simple password</string>
     <string name="fragment_settings_guest_control_authentication_password_value_hint">Guest password</string>
-    <string name="fragment_settings_guest_control_authentication_title_text">Authentication</string>
+    <string name="fragment_settings_guest_control_authentication_title_text">安全認證</string>
     <string name="fragment_settings_guest_control_enable_text">Enable Guest Portal</string>
     <string name="fragment_settings_guest_control_expiration_time_unit_title_text">Expiration Time Unit</string>
     <string name="fragment_settings_guest_control_expiration_time_value_hint">Time</string>
@@ -1935,7 +1935,7 @@ Try it again."</string>
 Expires:\u0009%3$s"</string>
     <string name="fragment_settings_hotspot_manager_voucher_list_options_menu_print_all_unused">Print All Unused Vouchers</string>
     <string name="fragment_settings_hotspot_manager_voucher_list_options_menu_print_batch">Print Batch</string>
-    <string name="fragment_settings_maintenance_backup_title_text">Backup</string>
+    <string name="fragment_settings_maintenance_backup_title_text">備份</string>
     <string name="fragment_settings_maintenance_cloud_key_available_firmware_version_title_text">Available Version</string>
     <string name="fragment_settings_maintenance_cloud_key_controller_available_version_title_text">Available Version</string>
     <string name="fragment_settings_maintenance_cloud_key_controller_status_title_text">Status</string>
@@ -1984,7 +1984,7 @@ Expires:\u0009%3$s"</string>
     <string name="fragment_settings_network_detail_fields_empty_text">One or more fields are empty</string>
     <string name="fragment_settings_network_detail_invalid_subnet">Invalid subnet address! (usage: 192.168.1.1/24)</string>
     <string name="fragment_settings_network_detail_ip_subnet_hint">IP/Subnet</string>
-    <string name="fragment_settings_network_detail_name_hint">Name</string>
+    <string name="fragment_settings_network_detail_name_hint">名稱</string>
     <string name="fragment_settings_network_detail_network_dhcp_guarding_text">Enable DHCP guarding</string>
     <string name="fragment_settings_network_detail_network_dhcp_guarding_title_text">DHCP Guarding</string>
     <string name="fragment_settings_network_detail_network_dhcp_guarding_trusted_dhcp_server_hint">Trusted DHCP server</string>
@@ -2068,7 +2068,7 @@ Expires:\u0009%3$s"</string>
     <string name="fragment_settings_user_group_detail_limit_download_value_hint">Maximum download Kbps</string>
     <string name="fragment_settings_user_group_detail_limit_upload_text">Limit upload bandwidth</string>
     <string name="fragment_settings_user_group_detail_limit_upload_value_hint">Maximum upload Kbps</string>
-    <string name="fragment_settings_user_group_detail_name_hint">Name</string>
+    <string name="fragment_settings_user_group_detail_name_hint">名稱</string>
     <string name="fragment_settings_user_group_detail_updated">User Group updated</string>
     <string name="fragment_settings_user_group_list_deleted">User Group deleted</string>
     <string name="fragment_settings_user_group_list_item_unlimited_text">Unlimited</string>
@@ -2119,7 +2119,7 @@ Expires:\u0009%3$s"</string>
     <string name="fragment_settings_wlan_group_detail_mobility_enabled_channel_title_text">Channel</string>
     <string name="fragment_settings_wlan_group_detail_mobility_text">Enable seamless roaming (Zero-Handoff)</string>
     <string name="fragment_settings_wlan_group_detail_mobility_title_text">Mobility</string>
-    <string name="fragment_settings_wlan_group_detail_name_text">Name</string>
+    <string name="fragment_settings_wlan_group_detail_name_text">名稱</string>
     <string name="fragment_settings_wlan_group_detail_radio_title_text">Radio</string>
     <string name="fragment_settings_wlan_group_detail_updated">WLAN Group Updated</string>
     <string name="fragment_sso_account_connection_problem">Connection problem!</string>
@@ -2320,7 +2320,7 @@ Expires:\u0009%3$s"</string>
     <string name="global_action_done">Done</string>
     <string name="global_action_downgrade">Downgrade</string>
     <string name="global_action_downgrade_upgrade">Downgrade and upgrade</string>
-    <string name="global_action_edit">Edit</string>
+    <string name="global_action_edit">編輯</string>
     <string name="global_action_enable">Enable</string>
     <string name="global_action_enabled">Enabled</string>
     <string name="global_action_exit">Exit</string>
@@ -2459,7 +2459,7 @@ Tap here to learn more"</string>
     <string name="global_title_ip_address">IP Address</string>
     <string name="global_title_lan">LAN</string>
     <string name="global_title_location">Location</string>
-    <string name="global_title_networks">Networks</string>
+    <string name="global_title_networks">網路</string>
     <string name="global_title_password">Password</string>
     <string name="global_title_password_empty">No password</string>
     <string name="global_title_password_match">Passwords do not match</string>
@@ -2513,13 +2513,13 @@ Tap here to learn more"</string>
     <string name="internet_detail_data_remaining_label">Data Remaining</string>
     <string name="internet_detail_dns_server_label">DNS Server</string>
     <string name="internet_detail_down_rate_required">Down Rate (kbit) is required when smart queues are enabled</string>
-    <string name="internet_detail_edit">Edit</string>
+    <string name="internet_detail_edit">編輯</string>
     <string name="internet_detail_field_must_be_ipv4">This field must be a valid IPv4 address</string>
     <string name="internet_detail_field_must_be_mac_address">This field must be a valid MAC address</string>
     <string name="internet_detail_field_must_be_subnet">This field must be a valid subnet address</string>
     <string name="internet_detail_ip_address_label">IP Address</string>
     <string name="internet_detail_location_label">Location</string>
-    <string name="internet_detail_name_label">Name</string>
+    <string name="internet_detail_name_label">名稱</string>
     <string name="internet_detail_password_cannot_be_empty">Password cannot be empty</string>
     <string name="internet_detail_peak_downlink_label">Peak Utilization (Downlink)</string>
     <string name="internet_detail_peak_uplink_label">Peak Utilization (Uplink)</string>
@@ -2603,7 +2603,7 @@ Tap here to learn more"</string>
     <string name="internet_list_item_subtitle_not_active">Not Active</string>
     <string name="internet_list_item_subtitle_template" formatted="false">%s (Port %d)</string>
     <string name="internet_list_message_no_data">Data not available!</string>
-    <string name="internet_list_title">Internet</string>
+    <string name="internet_list_title">網際網路</string>
     <string name="internet_list_udm_pro">UniFi Dream Machine Pro</string>
     <string name="ipv6_Configuration_gateway_subnet">IPv6 Gateway Subnet</string>
     <string name="ipv6_Configuration_gateway_subnet_error">Please enter a valid IPv6 Subnet</string>
@@ -2667,7 +2667,7 @@ Tap here to learn more"</string>
     <string name="local_controller_form_error_unknown">Unknown error!</string>
     <string name="local_controller_form_ip_address_hint">IP Address/URL</string>
     <string name="local_controller_form_ip_port_separator">:</string>
-    <string name="local_controller_form_name_category">NAME</string>
+    <string name="local_controller_form_name_category">名稱</string>
     <string name="local_controller_form_name_hint">UniFi OS Console Name (Optional)</string>
     <string name="local_controller_form_notification">An error occurred! Please try again…</string>
     <string name="local_controller_form_password_hint">Password</string>
@@ -2727,7 +2727,7 @@ Would you like to connect to the server anyway?"</string>
     <string name="login_screen_controller_remove_action">Forget UniFi OS Console</string>
     <string name="login_screen_controller_status_button">See More</string>
     <string name="login_screen_menu_item_account">Account</string>
-    <string name="login_screen_menu_item_controllers">Network</string>
+    <string name="login_screen_menu_item_controllers">網路</string>
     <string name="login_sso_add_account">Add Account</string>
     <string name="login_sso_error_connection">Cannot connect to UI.com server!</string>
     <string name="login_sso_failed">Cannot login to UI.com server!</string>
@@ -2785,7 +2785,7 @@ Would you like to connect to the server anyway?"</string>
     <string name="menu_fragment_settings_admin_list_item_rewoke_text">Delete</string>
     <string name="menu_fragment_settings_site_reset_text">Reset</string>
     <string name="menu_fragment_settings_user_group_list_item_delete_text">Delete</string>
-    <string name="menu_fragment_settings_user_group_list_item_edit_text">Edit</string>
+    <string name="menu_fragment_settings_user_group_list_item_edit_text">編輯</string>
     <string name="menu_fragment_spectrum_scan_refresh_text">Refresh</string>
     <string name="more_category_utilities">Utilities</string>
     <string name="more_hotspot_manager">Hotspot Manager</string>
@@ -2950,7 +2950,7 @@ Would you like to connect to the server anyway?"</string>
     <string name="network_create_advanced_new_dhcp_option_macaddress_error_empty">MAC Address cannot be empty</string>
     <string name="network_create_advanced_new_dhcp_option_macaddress_error_invalid">This field must be a valid MAC address</string>
     <string name="network_create_advanced_new_dhcp_option_macaddress_hint">Enter MAC Address</string>
-    <string name="network_create_advanced_new_dhcp_option_name">Name</string>
+    <string name="network_create_advanced_new_dhcp_option_name">名稱</string>
     <string name="network_create_advanced_new_dhcp_option_name_error_empty">Name cannot be empty</string>
     <string name="network_create_advanced_new_dhcp_option_name_error_invalid">Can only contain letters, numbers, -, and _</string>
     <string name="network_create_advanced_new_dhcp_option_name_hint">Enter Dhcp Option Name</string>
@@ -2974,12 +2974,12 @@ Would you like to connect to the server anyway?"</string>
     <string name="network_create_backup_wan_description">Back up this Network using U-LTE in case there is a problem with your primary WAN connection</string>
     <string name="network_create_backup_wan_label">Allow backup WAN (Internet) Access</string>
     <string name="network_create_cancel">取消</string>
-    <string name="network_create_content_filtering_message">Access Content Filtering settings at</string>
+    <string name="network_create_content_filtering_message">訪問內容過濾設定在</string>
     <string name="network_create_error_other">Could not save network</string>
     <string name="network_create_error_permission">Permission denied!</string>
     <string name="network_create_internet_access_description">If disabled, only LAN connections will be allowed</string>
     <string name="network_create_internet_access_label">Internet Access</string>
-    <string name="network_create_name">Name</string>
+    <string name="network_create_name">名稱</string>
     <string name="network_create_name_error">Network Name cannot be empty</string>
     <string name="network_create_name_hint">Enter Network Name</string>
     <string name="network_create_router">Router</string>
@@ -3017,8 +3017,8 @@ Would you like to connect to the server anyway?"</string>
     <string name="network_create_vpn_radius_profile_label">RADIUS Profile</string>
     <string name="network_create_vpn_settings">VPN Settings</string>
     <string name="network_create_vpn_title">VPN Settings</string>
-    <string name="network_detail_backup">Backup</string>
-    <string name="network_detail_content_filter">Content Filter</string>
+    <string name="network_detail_backup">備份</string>
+    <string name="network_detail_content_filter">內容過濾器</string>
     <string name="network_detail_content_filter_family">Family</string>
     <string name="network_detail_content_filter_work">Work</string>
     <string name="network_detail_default_value">-</string>
@@ -3027,15 +3027,15 @@ Would you like to connect to the server anyway?"</string>
     <string name="network_detail_delete_dialog_positive">Delete</string>
     <string name="network_detail_delete_dialog_title">Delete this Network?</string>
     <string name="network_detail_disable_network">Disable this Network</string>
-    <string name="network_detail_edit">Edit</string>
+    <string name="network_detail_edit">編輯</string>
     <string name="network_detail_enable_network">Enable this Network</string>
-    <string name="network_detail_internet">Internet</string>
-    <string name="network_detail_ip_leases">IP Leases</string>
+    <string name="network_detail_internet">網際網路</string>
+    <string name="network_detail_ip_leases">網路 IP 數量</string>
     <string name="network_detail_ip_leases_format">%1$d (%2$d)</string>
-    <string name="network_detail_name">Name</string>
-    <string name="network_detail_remove_network">Remove this Network</string>
+    <string name="network_detail_name">名稱</string>
+    <string name="network_detail_remove_network">刪除此網絡</string>
     <string name="network_detail_router">Router</string>
-    <string name="network_detail_subnet">Subnet</string>
+    <string name="network_detail_subnet">子網</string>
     <string name="network_detail_vpn">VPN</string>
     <string name="network_edit_title">Edit %s</string>
     <string name="network_isolation_add">Add</string>
@@ -3051,7 +3051,7 @@ Would you like to connect to the server anyway?"</string>
     <string name="network_list_error_message">Failed to load networks</string>
     <string name="network_list_error_title">Networks Unavailable</string>
     <string name="network_list_error_unsupported">To manage this network, please visit unifi.ui.com</string>
-    <string name="network_list_title">Networks</string>
+    <string name="network_list_title">網路</string>
     <string name="network_list_vlan_id">VLAN ID %s</string>
     <string name="not_set">未設定</string>
     <string name="notification_aws_controller_offline_body">UniFi OS Console \"%1$s\" (%2$s) was disconnected.</string>
@@ -3379,7 +3379,7 @@ Would you like to connect to the server anyway?"</string>
     <string name="setup_controller_form_name_image">Device Image</string>
     <string name="setup_controller_form_name_input_error">Please enter a name for your device</string>
     <string name="setup_controller_form_name_mac_title">MAC Address</string>
-    <string name="setup_controller_form_name_name">Name</string>
+    <string name="setup_controller_form_name_name">名稱</string>
     <string name="setup_controller_form_name_public_ip_title">Internet Address</string>
     <string name="setup_controller_form_name_title">%s Setup</string>
     <string name="setup_controller_form_no_internet_title">No Internet connection!</string>
@@ -3592,7 +3592,7 @@ Do you want to keep scanning?"</string>
     <string name="sso_register_error_user_exists">User already exists!</string>
     <string name="sso_register_eula">Terms and Conditions</string>
     <string name="sso_register_eula_description" formatted="false">Agree to the &lt;a href=\"%s\">Terms of Service&lt;\\a> and &lt;a href=\"%s\">End User License Agreement&lt;\\a>.</string>
-    <string name="sso_register_first_name">Name</string>
+    <string name="sso_register_first_name">名稱</string>
     <string name="sso_register_second_name">Last Name</string>
     <string name="sso_register_submit">Create account</string>
     <string name="sso_register_title">Create UI.com Account</string>
@@ -3729,7 +3729,7 @@ Do you want to keep scanning?"</string>
     <string name="uptime_year">y</string>
     <string name="usp_strip_component_disabled">Disabled</string>
     <string name="usp_strip_component_enabled">Enabled</string>
-    <string name="usp_strip_outlet_detail_name_hint">Name</string>
+    <string name="usp_strip_outlet_detail_name_hint">名稱</string>
     <string name="usp_strip_outlet_detail_name_label">Outlet Name</string>
     <string name="usp_strip_outlet_detail_power_cycle">Modem Power Cycle</string>
     <string name="usp_strip_outlet_detail_power_cycle_description">Power cycle your modem if the internet goes down when your modem is plugged into this outlet</string>
@@ -3819,7 +3819,7 @@ Disabling lower bitrates can improve performance for higher-density networks but
     <string name="wifi_advanced_schedule_enter_name">Enter name</string>
     <string name="wifi_advanced_schedule_every_template">Every %s</string>
     <string name="wifi_advanced_schedule_list_description_template" formatted="false">%s, %s</string>
-    <string name="wifi_advanced_schedule_name">Name</string>
+    <string name="wifi_advanced_schedule_name">名稱</string>
     <string name="wifi_advanced_schedule_repeat_every_week_on">Repeat every week on</string>
     <string name="wifi_advanced_schedule_repeats_every_week">Repeats every week</string>
     <string name="wifi_advanced_schedule_start_day">Start day</string>
@@ -3878,30 +3878,30 @@ Disabling lower bitrates can improve performance for higher-density networks but
     <string name="wifi_create_error_notification">Failed to add new WiFi network</string>
     <string name="wifi_create_name_hint">Enter a name</string>
     <string name="wifi_create_name_label">Name (SSID)</string>
-    <string name="wifi_create_network_label">Network</string>
+    <string name="wifi_create_network_label">網路</string>
     <string name="wifi_create_password_hint">Password</string>
     <string name="wifi_create_password_label">Password</string>
     <string name="wifi_create_title">New WiFi Network</string>
     <string name="wifi_detail_aps_value_hint">Select AP Group</string>
     <string name="wifi_detail_aps_value_multiple">Multiple AP Groups</string>
-    <string name="wifi_detail_authentication_label">Authentication</string>
-    <string name="wifi_detail_clients_count_label">Clients (Peak)</string>
+    <string name="wifi_detail_authentication_label">安全認證</string>
+    <string name="wifi_detail_clients_count_label">客戶端 (高峰)</string>
     <string name="wifi_detail_clients_count_value">%1$d (%2$d)</string>
     <string name="wifi_detail_duplicate">Duplicate this Network</string>
     <string name="wifi_detail_enable_wifi_label">Enable</string>
-    <string name="wifi_detail_name_label">Name</string>
-    <string name="wifi_detail_network_label">Network</string>
+    <string name="wifi_detail_name_label">名稱</string>
+    <string name="wifi_detail_network_label">網路</string>
     <string name="wifi_detail_password_label">Password</string>
-    <string name="wifi_detail_remove">Remove this Network</string>
+    <string name="wifi_detail_remove">刪除此網絡</string>
     <string name="wifi_detail_security_open_text">Open</string>
     <string name="wifi_detail_security_wep_text">WEP</string>
     <string name="wifi_detail_security_wpa_enterprise_text">WPA Enterprise</string>
     <string name="wifi_detail_security_wpa_text">WPA Personal</string>
-    <string name="wifi_detail_select_network_title">Network</string>
+    <string name="wifi_detail_select_network_title">網路</string>
     <string name="wifi_detail_title_fallback">WiFi Detail</string>
     <string name="wifi_detail_wifi_ap_groups_label">AP Groups</string>
     <string name="wifi_detail_wifi_experience_label">WiFi 體驗</string>
-    <string name="wifi_list_guest_hotspot_tab">Guest Hotspot</string>
+    <string name="wifi_list_guest_hotspot_tab">訪客網路</string>
     <string name="wifi_list_message_no_guest_hotspots">No Guest Hotspots</string>
     <string name="wifi_list_message_no_wifi">No WiFi Networks</string>
     <string name="wifi_list_title">WiFi</string>
