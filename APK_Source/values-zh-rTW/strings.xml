@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="a_maximum_of_4_wireless_networks_are_allowed_pafragment_settings_wireless_network_list_footer_texter_wlan_group">A maximum of 4 wireless networks are allowed per WLAN group</string>
-    <string name="ab_title_activity_sso_accounts">Accounts</string>
+    <string name="ab_title_activity_sso_accounts">帳號</string>
     <string name="ab_title_alerts">通知</string>
     <string name="ab_title_device_detail_port_detail">Port properties</string>
     <string name="ab_title_fragment_configuration">Configuration</string>
-    <string name="ab_title_fragment_easy_setup_settings_applied">Login</string>
+    <string name="ab_title_fragment_easy_setup_settings_applied">登入</string>
     <string name="ab_title_fragment_settings_network_detail_create">Create new network</string>
     <string name="ab_title_fragment_settings_network_detail_edit">Edit - %s</string>
     <string name="ab_title_fragment_settings_wireless_network_detail_create">Create new WLAN</string>
@@ -87,7 +87,7 @@
     <string name="account_report_key_copied">\"Report key\" copied to clipboard!</string>
     <string name="account_report_key_label">UniFi App Report Key</string>
     <string name="account_security">Security</string>
-    <string name="account_sign_out">Sign Out</string>
+    <string name="account_sign_out">登出</string>
     <string name="account_standalone_device_appbar_title">Standalone Devices</string>
     <string name="account_standalone_device_country_message">Please make sure the country corresponds with the country your devices reside in.</string>
     <string name="account_standalone_device_country_title">Country</string>
@@ -102,8 +102,8 @@ We strongly recommend changing these credentials, otherwise anyone on your netwo
 
 The credentials will be applied to your device the next time you save its configuration."</string>
     <string name="account_standalone_devices">Standalone Devices</string>
-    <string name="account_toolbar_title">Account</string>
-    <string name="accounts_list_empty">Add UI.com account</string>
+    <string name="account_toolbar_title">帳號</string>
+    <string name="accounts_list_empty">在 UI.com 註冊帳號</string>
     <string name="accounts_list_error">Failed to load saved accounts.</string>
     <string name="action_cancel">取消</string>
     <string name="action_ok">確認</string>
@@ -115,7 +115,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="activity_scan_qr_code_scan_text">Scan QR code</string>
     <string name="activity_scan_qr_code_title_text">Instructions</string>
     <string name="add_client_dialig_user_group">User Group</string>
-    <string name="add_client_dialog_alias_hint">Alias</string>
+    <string name="add_client_dialog_alias_hint">別名</string>
     <string name="add_client_dialog_cancel">取消</string>
     <string name="add_client_dialog_client_exists_error_message">Client already exists.</string>
     <string name="add_client_dialog_default">Default</string>
@@ -240,10 +240,10 @@ The credentials will be applied to your device the next time you save its config
     <string name="client_detail_applications_loading_error">Error while loading applications data!</string>
     <string name="client_detail_configure_alias_fallback">None</string>
     <string name="client_detail_configure_alias_hint">Enter alias name</string>
-    <string name="client_detail_configure_alias_label">Alias</string>
-    <string name="client_detail_configure_alias_title">Alias</string>
+    <string name="client_detail_configure_alias_label">別名</string>
+    <string name="client_detail_configure_alias_title">別名</string>
     <string name="client_detail_configure_block">Block</string>
-    <string name="client_detail_configure_block_failed">Failed</string>
+    <string name="client_detail_configure_block_failed">失敗</string>
     <string name="client_detail_configure_blocked">Blocked</string>
     <string name="client_detail_configure_blocking">Blocking…</string>
     <string name="client_detail_configure_blocking_error">Failed to block/unblock a client!</string>
@@ -903,7 +903,7 @@ Talk: %s"</string>
     <string name="device_state_flag_upgrade_firmware_downloading">downloading</string>
     <string name="device_state_flag_upgrade_firmware_ready">ready</string>
     <string name="device_state_flag_upgrade_needs">needs upgrade</string>
-    <string name="device_state_flag_upgrade_reboot_failed">failed</string>
+    <string name="device_state_flag_upgrade_reboot_failed">失敗</string>
     <string name="device_state_flag_upgrade_reboot_preparing">preparing</string>
     <string name="device_state_flag_wireless">無線</string>
     <string name="device_state_heartbeat_missed">Heartbeat Missed</string>
@@ -1444,7 +1444,7 @@ Try it again."</string>
     <string name="fragment_alert_list_item_archive_text">Archive</string>
     <string name="fragment_client_detail_client_blocked_snackbar">Client blocked</string>
     <string name="fragment_client_detail_client_unblocked_snackbar">Client unblocked</string>
-    <string name="fragment_client_detail_configuration_general_alias_hint">Alias</string>
+    <string name="fragment_client_detail_configuration_general_alias_hint">別名</string>
     <string name="fragment_client_detail_configuration_general_note_hint">Note</string>
     <string name="fragment_client_detail_configuration_general_title_text">General</string>
     <string name="fragment_client_detail_configuration_network_fixed_ip_text">Use fixed IP address</string>
@@ -1603,7 +1603,7 @@ Try it again."</string>
     <string name="fragment_device_detail_configuration_dynamic_dns_item_server_text">Server</string>
     <string name="fragment_device_detail_configuration_dynamic_dns_item_service_text">Service</string>
     <string name="fragment_device_detail_configuration_dynamic_dns_updated">Dynamic DNS updated</string>
-    <string name="fragment_device_detail_configuration_general_alias_hint">Alias</string>
+    <string name="fragment_device_detail_configuration_general_alias_hint">別名</string>
     <string name="fragment_device_detail_configuration_general_led_default_text">Use site settings</string>
     <string name="fragment_device_detail_configuration_general_led_off_text">Off</string>
     <string name="fragment_device_detail_configuration_general_led_on_text">On</string>
@@ -2435,7 +2435,7 @@ Tap here to learn more"</string>
     <string name="global_starting">Starting…</string>
     <string name="global_subnet_mask_error">Subnet Mask is not valid</string>
     <string name="global_time_now">Now</string>
-    <string name="global_title_accounts">Accounts</string>
+    <string name="global_title_accounts">帳號</string>
     <string name="global_title_activity">Activity</string>
     <string name="global_title_ap">AP</string>
     <string name="global_title_application">Application</string>
@@ -2726,7 +2726,7 @@ Would you like to connect to the server anyway?"</string>
     <string name="login_remote_legacy_state_request_login">Requesting login…</string>
     <string name="login_screen_controller_remove_action">Forget UniFi OS Console</string>
     <string name="login_screen_controller_status_button">See More</string>
-    <string name="login_screen_menu_item_account">Account</string>
+    <string name="login_screen_menu_item_account">帳號</string>
     <string name="login_screen_menu_item_controllers">網路</string>
     <string name="login_sso_add_account">Add Account</string>
     <string name="login_sso_error_connection">Cannot connect to UI.com server!</string>
@@ -3645,7 +3645,7 @@ Do you want to keep scanning?"</string>
     <string name="standalone_config_status_error_connection">"Couldn't connect to the device."</string>
     <string name="standalone_config_status_error_login">Invalid credentials.</string>
     <string name="standalone_config_status_error_other">Unexpected error</string>
-    <string name="standalone_config_status_login_label">Login</string>
+    <string name="standalone_config_status_login_label">登入</string>
     <string name="standalone_config_status_retry_label">Retry</string>
     <string name="standalone_config_traffic">Traffic In/Out</string>
     <string name="standalone_config_tx_power">Transmit Power</string>
