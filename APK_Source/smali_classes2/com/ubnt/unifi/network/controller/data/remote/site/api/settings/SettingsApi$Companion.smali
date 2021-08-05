@@ -1,0 +1,123 @@
+.class public final Lcom/ubnt/unifi/network/controller/data/remote/site/api/settings/SettingsApi$Companion;
+.super Ljava/lang/Object;
+.source "SettingsApi.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ubnt/unifi/network/controller/data/remote/site/api/settings/SettingsApi;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Companion"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    bv = {
+        0x1,
+        0x0,
+        0x3
+    }
+    d1 = {
+        "\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008A\u0008\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\u0008\u0002\u00a2\u0006\u0002\u0010\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0006\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0008\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\n\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000c\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\r\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000e\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000f\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0010\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0011\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0012\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0013\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0014\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0015\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0016\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0017\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0018\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0019\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001a\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001b\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001c\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001d\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001e\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001f\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010 \u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010!\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\"\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010#\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010$\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010%\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010&\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\'\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010(\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010)\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010*\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010+\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010,\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010-\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010.\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010/\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u00100\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00101\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00102\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00103\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u00104\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u00105\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u00106\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u00107\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u00108\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u00109\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010:\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010;\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010<\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010=\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010>\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010?\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010@\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010A\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010B\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010C\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000R\u000e\u0010D\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000\u00a8\u0006E"
+    }
+    d2 = {
+        "Lcom/ubnt/unifi/network/controller/data/remote/site/api/settings/SettingsApi$Companion;",
+        "",
+        "()V",
+        "AUTO_SCALE_ENABLED_KEY",
+        "",
+        "DHCPD_BOOT_ENABLED_KEY",
+        "DHCPD_BOOT_FILENAME_KEY",
+        "DHCPD_BOOT_SERVER_KEY",
+        "DHCPD_DNS_1_KEY",
+        "DHCPD_DNS_2_KEY",
+        "DHCPD_DNS_3_KEY",
+        "DHCPD_DNS_4_KEY",
+        "DHCPD_DNS_ENABLED_KEY",
+        "DHCPD_ENABLED_KEY",
+        "DHCPD_GATEWAY_ENABLED_KEY",
+        "DHCPD_GATEWAY_KEY",
+        "DHCPD_IP_1_KEY",
+        "DHCPD_IP_2_KEY",
+        "DHCPD_IP_3_KEY",
+        "DHCPD_LEASETIME_KEY",
+        "DHCPD_NTP_1_KEY",
+        "DHCPD_NTP_2_KEY",
+        "DHCPD_NTP_ENABLED_KEY",
+        "DHCPD_START_KEY",
+        "DHCPD_STOP_KEY",
+        "DHCPD_TFTP_SERVER_KEY",
+        "DHCPD_TIME_OFFSET_ENABLED_KEY",
+        "DHCPD_TIME_OFFSET_KEY",
+        "DHCPD_UNIFI_CONTORLLER_KEY",
+        "DHCPD_USER_OPTION_KEY",
+        "DHCPD_WPAD_URL_KEY",
+        "DHCPV6_DNS_1_KEY",
+        "DHCPV6_DNS_2_KEY",
+        "DHCPV6_DNS_3_KEY",
+        "DHCPV6_DNS_4_KEY",
+        "DHCPV6_DNS_AUTO_KEY",
+        "DHCPV6_ENABLED_KEY",
+        "DHCPV6_LEASETIME_KEY",
+        "DHCPV6_START_KEY",
+        "DHCPV6_STOP_KEY",
+        "DHCP_GUARD_ENABLED_KEY",
+        "DHCP_RELAY_ENABLED_KEY",
+        "DOMAIN_NAME_KEY",
+        "ENABLED_KEY",
+        "GATEWAY_DEVICE_KEY",
+        "GATEWAY_TYPE_KEY",
+        "ID_KEY",
+        "IGMP_SNOOPING_KEY",
+        "IPV6_INTERFACE_NONE",
+        "IPV6_INTERFACE_PREFIX_DELEGATION",
+        "IPV6_INTERFACE_STATIC",
+        "IPV6_INTERFACE_TYPE_KEY",
+        "IPV6_PD_INTERFACE_KEY",
+        "IPV6_PD_PREFIX_ID_KEY",
+        "IPV6_PD_START_KEY",
+        "IPV6_PD_STOP_KEY",
+        "IPV6_RA_ENABLED_KEY",
+        "IPV6_RA_PREFERRED_LIFETIME_KEY",
+        "IPV6_RA_PRIORITY_KEY",
+        "IPV6_RA_VALID_LIFETIME_KEY",
+        "IPV6_SUBNET_KEY",
+        "IP_SUBNET_KEY",
+        "LTE_LAN_ENABLED_KEY",
+        "NAME_KEY",
+        "NETWORK_GROUP_KEY",
+        "PURPOSE_KEY",
+        "UPNP_LAN_ENABLED_KEY",
+        "VLAN_ENABLED_KEY",
+        "VLAN_KEY",
+        "app_productionRelease"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x4,
+        0x2
+    }
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 24
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    .line 24
+    invoke-direct {p0}, Lcom/ubnt/unifi/network/controller/data/remote/site/api/settings/SettingsApi$Companion;-><init>()V
+
+    return-void
+.end method
