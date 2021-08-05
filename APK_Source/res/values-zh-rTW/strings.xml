@@ -88,10 +88,10 @@
     <string name="account_report_key_label">UniFi App Report Key</string>
     <string name="account_security">安全</string>
     <string name="account_sign_out">登出</string>
-    <string name="account_standalone_device_appbar_title">Standalone Devices</string>
-    <string name="account_standalone_device_country_message">Please make sure the country corresponds with the country your devices reside in.</string>
-    <string name="account_standalone_device_country_title">Country</string>
-    <string name="account_standalone_device_credentials_title">Credentials</string>
+    <string name="account_standalone_device_appbar_title">獨立設備</string>
+    <string name="account_standalone_device_country_message">請確認該國家/地區與您的設備所在的國家/地區一致。</string>
+    <string name="account_standalone_device_country_title">國家</string>
+    <string name="account_standalone_device_credentials_title">憑證</string>
     <string name="account_standalone_device_error_country">Failed selecting a country</string>
     <string name="account_standalone_device_error_other">Unexpected error occurred</string>
     <string name="account_standalone_device_error_password">Password is missing</string>
@@ -101,7 +101,7 @@
 We strongly recommend changing these credentials, otherwise anyone on your network will be able to access your devices.
 
 The credentials will be applied to your device the next time you save its configuration."</string>
-    <string name="account_standalone_devices">Standalone Devices</string>
+    <string name="account_standalone_devices">獨立設備</string>
     <string name="account_toolbar_title">帳號</string>
     <string name="accounts_list_empty">在 UI.com 註冊帳號</string>
     <string name="accounts_list_error">Failed to load saved accounts.</string>
@@ -124,7 +124,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="add_client_dialog_fixed_ip">Use Fixed IP Address</string>
     <string name="add_client_dialog_invalid_fixed_ip_error_message">Invalid Fixed IP.</string>
     <string name="add_client_dialog_ip_address_hint">IP 地址</string>
-    <string name="add_client_dialog_mac_address_hint">MAC Address</string>
+    <string name="add_client_dialog_mac_address_hint">MAC 地址</string>
     <string name="add_client_dialog_network">網路</string>
     <string name="add_client_dialog_note_hint">Note</string>
     <string name="add_client_dialog_submit">儲存</string>
@@ -231,7 +231,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="blog_title">Ubiquiti Blog</string>
     <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="bottomsheet_action_expand_halfway">展開一半</string>
-    <string name="channel_utilization_title">Channel Utilization</string>
+    <string name="channel_utilization_title">渠道利用率</string>
     <string name="character_counter_content_description">已輸入 %1$d 個字元 (上限為 %2$d 個字元)</string>
     <string name="character_counter_overflowed_content_description">超過字元限制 (共 %1$d 字元，上限 %2$d 字元)</string>
     <string name="character_counter_pattern">%1$d/%2$d</string>
@@ -247,7 +247,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="client_detail_configure_blocked">Blocked</string>
     <string name="client_detail_configure_blocking">Blocking…</string>
     <string name="client_detail_configure_blocking_error">Failed to block/unblock a client!</string>
-    <string name="client_detail_configure_done_action">Done</string>
+    <string name="client_detail_configure_done_action">完成</string>
     <string name="client_detail_configure_fixed_ip_error_message">"Failed to get client's fixed ip data."</string>
     <string name="client_detail_configure_fixed_ip_ip_address_input_row_hint">Enter IP Address</string>
     <string name="client_detail_configure_fixed_ip_ip_address_input_row_label">@string/global_title_ip_address</string>
@@ -285,7 +285,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="client_detail_general_overview_connection">Connection</string>
     <string name="client_detail_general_overview_essid">ESSID</string>
     <string name="client_detail_general_overview_ip">IP 地址</string>
-    <string name="client_detail_general_overview_mac">MAC Address</string>
+    <string name="client_detail_general_overview_mac">MAC 地址</string>
     <string name="client_detail_general_overview_mac_short">MAC</string>
     <string name="client_detail_general_overview_phy_mode">PHY Mode</string>
     <string name="client_detail_general_overview_port">端口</string>
@@ -343,10 +343,10 @@ The credentials will be applied to your device the next time you save its config
     <string name="client_list_field_group">User Group</string>
     <string name="client_list_field_identity">802.1X Identity</string>
     <string name="client_list_field_ip">IP 地址</string>
-    <string name="client_list_field_mac">Mac Address</string>
+    <string name="client_list_field_mac">MAC 地址</string>
     <string name="client_list_field_name">名稱</string>
     <string name="client_list_field_signal">Signal Strength</string>
-    <string name="client_list_field_uptime">Uptime</string>
+    <string name="client_list_field_uptime">在線時間</string>
     <string name="client_list_filter_blocked_day">Day</string>
     <string name="client_list_filter_blocked_disabled">Disabled</string>
     <string name="client_list_filter_blocked_hour">Hour</string>
@@ -406,9 +406,9 @@ The credentials will be applied to your device the next time you save its config
     <string name="clients_display_options_device_type">Device Type</string>
     <string name="clients_display_options_identity">802.1X Identity</string>
     <string name="clients_display_options_ip">IP 地址</string>
-    <string name="clients_display_options_mac">MAC Address</string>
+    <string name="clients_display_options_mac">MAC 地址</string>
     <string name="clients_display_options_title">顯示選項</string>
-    <string name="clients_display_options_uptime">Uptime</string>
+    <string name="clients_display_options_uptime">在線時間</string>
     <string name="clients_display_options_user_group">User Group</string>
     <string name="clients_error_empty_title">No Clients</string>
     <string name="clients_error_empty_wired_title">No Wired Clients</string>
@@ -438,7 +438,7 @@ The credentials will be applied to your device the next time you save its config
     <string name="clients_sort_name">名稱</string>
     <string name="clients_sort_signal">Signal Strength</string>
     <string name="clients_sort_title">Sort by…</string>
-    <string name="clients_sort_uptime">Uptime</string>
+    <string name="clients_sort_uptime">在線時間</string>
     <string name="clients_toolbar_options">Options</string>
     <string name="clients_toolbar_title">客戶端</string>
     <string name="com.crashlytics.android.build_id">00000000000000000000000000000000</string>
@@ -488,10 +488,10 @@ The credentials will be applied to your device the next time you save its config
     <string name="controller_configuration_ssh_auth">Device SSH Authentication</string>
     <string name="controller_configuration_uplink_monitor">Uplink Connectivity Monitor</string>
     <string name="controller_disconnected_button_cancel">@string/action_cancel</string>
-    <string name="controller_disconnected_button_retry">Try again</string>
+    <string name="controller_disconnected_button_retry">再試一次</string>
     <string name="controller_disconnected_state_connection">Connecting to %1$s</string>
     <string name="controller_disconnected_state_connection_fallback">Connecting</string>
-    <string name="controller_hamburger_add_button">Add New</string>
+    <string name="controller_hamburger_add_button">新增</string>
     <string name="controller_hamburger_list_disconnected">"You're offline. Go online to view your consoles."</string>
     <string name="controller_hamburger_list_email">"Your account's email address has not been verified. Please check your email inbox and verify your email address."</string>
     <string name="controller_hamburger_list_empty">No UniFi OS Consoles available</string>
@@ -711,7 +711,7 @@ Talk: %s"</string>
     <string name="controllers_list_account_login">Login to UI.com Account</string>
     <string name="controllers_list_empty_description">All your devices will be listed here once the setup is complete</string>
     <string name="controllers_list_empty_setup_button">Set up a New Device</string>
-    <string name="controllers_list_empty_title">No devices found</string>
+    <string name="controllers_list_empty_title">找不到設備</string>
     <string name="controllers_list_error_disconnected_description">Go online to view your UniFi OS Consoles</string>
     <string name="controllers_list_error_disconnected_title">Disconnected</string>
     <string name="controllers_list_error_email_not_verified_description">Please verify your email address!</string>
@@ -730,7 +730,7 @@ Talk: %s"</string>
     <string name="controllers_list_error_unknown_title">未知錯誤</string>
     <string name="controllers_list_header_local">Local UniFi OS Consoles</string>
     <string name="controllers_list_header_remote">Remote UniFi OS Consoles</string>
-    <string name="controllers_list_header_standalone">Standalone Devices</string>
+    <string name="controllers_list_header_standalone">獨立設備</string>
     <string name="controllers_list_remove_dialog_no">Close</string>
     <string name="copy">複製</string>
     <string name="dashboard_active_apps">最活躍的應用程式</string>
@@ -754,7 +754,7 @@ Talk: %s"</string>
     <string name="dashboard_internet_no_connection">No Internet connection</string>
     <string name="dashboard_internet_upload">上傳</string>
     <string name="dashboard_internet_upload_unavailable">-</string>
-    <string name="dashboard_internet_uptime">Uptime</string>
+    <string name="dashboard_internet_uptime">在線時間</string>
     <string name="dashboard_internet_uptime_unavailable">-</string>
     <string name="dashboard_speed_test_button">Speed Test</string>
     <string name="dashboard_speed_test_device_default">Your device</string>
@@ -819,8 +819,8 @@ Talk: %s"</string>
     <string name="device_list_display_options_dialog_fw_version">Firmware Version</string>
     <string name="device_list_display_options_dialog_ip_address">IP 地址</string>
     <string name="device_list_display_options_dialog_title">顯示選項</string>
-    <string name="device_list_display_options_dialog_uptime">Uptime</string>
-    <string name="device_list_error_no_devices_found">No Devices Found</string>
+    <string name="device_list_display_options_dialog_uptime">在線時間</string>
+    <string name="device_list_error_no_devices_found">找不到設備</string>
     <string name="device_list_error_no_wired_devices_found">No Wired Devices Found</string>
     <string name="device_list_error_no_wireless_devices_found">No Wireless Devices Found</string>
     <string name="device_list_filter_all">全部</string>
@@ -834,7 +834,7 @@ Talk: %s"</string>
     <string name="device_list_item_status_adopting">Adding</string>
     <string name="device_list_item_status_adoption_failed">Adoption failed</string>
     <string name="device_list_item_status_adoption_required">Adoption Required</string>
-    <string name="device_list_item_status_connected">Connected</string>
+    <string name="device_list_item_status_connected">已連接</string>
     <string name="device_list_item_status_disconnected">Disconnected</string>
     <string name="device_list_item_status_firmware_mismatch">Firmware mismatch</string>
     <string name="device_list_item_status_getting_ready">Getting Ready</string>
@@ -849,7 +849,7 @@ Talk: %s"</string>
     <string name="device_list_item_status_unknown">錯誤</string>
     <string name="device_list_item_status_updating">Updating</string>
     <string name="device_list_item_title_fallback">No Title</string>
-    <string name="device_list_message_empty">No devices found</string>
+    <string name="device_list_message_empty">找不到設備</string>
     <string name="device_list_options_dialog_display_options">顯示選項</string>
     <string name="device_list_options_dialog_sort">排序</string>
     <string name="device_list_options_dialog_stop_upgrade">Stop Upgrade</string>
@@ -864,7 +864,7 @@ Talk: %s"</string>
     <string name="device_list_sort_dialog_name">名稱</string>
     <string name="device_list_sort_dialog_sort_by">Sort by…</string>
     <string name="device_list_sort_dialog_status">Status</string>
-    <string name="device_list_sort_dialog_uptime">Uptime</string>
+    <string name="device_list_sort_dialog_uptime">在線時間</string>
     <string name="device_list_title">UniFi 設備</string>
     <string name="device_list_toolbar_options">Options</string>
     <string name="device_list_toolbar_search">搜尋</string>
@@ -884,7 +884,7 @@ Talk: %s"</string>
     <string name="device_software_controller_short">UniFi OS Console</string>
     <string name="device_state_adopting">Adopting</string>
     <string name="device_state_adoption_failed">Adoption Failed</string>
-    <string name="device_state_connected">Connected</string>
+    <string name="device_state_connected">已連接</string>
     <string name="device_state_content_description">Device State: %1$s</string>
     <string name="device_state_deleting">Deleting</string>
     <string name="device_state_disconnected">Disconnected</string>
@@ -1059,7 +1059,7 @@ Talk: %s"</string>
     <string name="dhcp_option_type_hint_format">Enter %1$s</string>
     <string name="dhcp_option_type_integer">Integer</string>
     <string name="dhcp_option_type_ip_address">IP 地址</string>
-    <string name="dhcp_option_type_mac_address">MAC Address</string>
+    <string name="dhcp_option_type_mac_address">MAC 地址</string>
     <string name="dhcp_option_type_text">Text</string>
     <string name="dhcp_option_type_unknown">Unknown type</string>
     <string name="dialog_account_delete_negative_text">取消</string>
@@ -1340,27 +1340,27 @@ Could you please send us an email describing what makes you unsatisfied with the
     <string name="discard_changes_dialog_message">"Your changes won't be saved. Do you want to discard them?"</string>
     <string name="discard_changes_dialog_title">Discard changes?</string>
     <string name="discover_device_heading">尋找 UniFi 設備...</string>
-    <string name="discover_device_list_toolbar_connect_button">Connect to AP</string>
+    <string name="discover_device_list_toolbar_connect_button">與 AP 連線</string>
     <string name="discover_device_list_toolbar_settings_button">Settings</string>
     <string name="discover_device_message_1">Access points, switches and gateways on your local network will be shown here.</string>
     <string name="discover_device_message_2">"UniFi Devices managed by a UniFi OS Console that's running will not be discovered."</string>
     <string name="discover_device_title">Standalone</string>
-    <string name="discovery_empty_description">Plug in your UniFi device to begin</string>
-    <string name="discovery_empty_title">No Devices Found</string>
-    <string name="discovery_empty_try_again">Try again</string>
-    <string name="discovery_exit_dialog_message">Do you want to exit Discovery?</string>
+    <string name="discovery_empty_description">插入您的 UniFi 設備並在試一次</string>
+    <string name="discovery_empty_title">找不到設備</string>
+    <string name="discovery_empty_try_again">再試一次</string>
+    <string name="discovery_exit_dialog_message">您要退出探索嗎？</string>
     <string name="discovery_exit_dialog_negative">取消</string>
-    <string name="discovery_exit_dialog_positive">Exit Discovery</string>
-    <string name="discovery_exit_dialog_title">Exit Discovery?</string>
+    <string name="discovery_exit_dialog_positive">離開探索</string>
+    <string name="discovery_exit_dialog_title">要離開探索嗎?</string>
     <string name="discovery_fw_upgrade_desc">%1$s requires %2$s Firmware version to %3$s or later.</string>
     <string name="discovery_fw_upgrade_desc_net">%1$s requires Network Application version %2$s or later.</string>
-    <string name="discovery_fw_upgrade_done">Done</string>
+    <string name="discovery_fw_upgrade_done">完成</string>
     <string name="discovery_fw_upgrade_message">Please visit unifi.ui.com to update your %1$s Firmware to the latest version</string>
     <string name="discovery_fw_upgrade_message_net">Please visit network.unifi.ui.com to update your Network Application to the latest version</string>
     <string name="discovery_fw_upgrade_title">Firmware Update Required</string>
     <string name="discovery_fw_upgrade_title_net">Network Application Update Required</string>
     <string name="discovery_location_services_dialog_message">In order to use Bluetooth for device discovery, Android needs location services to be enabled.</string>
-    <string name="discovery_location_services_dialog_negative">Exit Discovery</string>
+    <string name="discovery_location_services_dialog_negative">離開探索</string>
     <string name="discovery_location_services_dialog_positive">Open settings</string>
     <string name="discovery_location_services_dialog_title">Enable Location Services?</string>
     <string name="discovery_permission_enable_bluetooth">Enable Bluetooth</string>
@@ -1371,8 +1371,8 @@ Could you please send us an email describing what makes you unsatisfied with the
     <string name="discovery_permission_request_location_services">Allow Location service</string>
     <string name="discovery_permission_skip">跳過</string>
     <string name="discovery_permission_title">Allow your location</string>
-    <string name="discovery_scan_description">Searching…</string>
-    <string name="discovery_scan_title">Device Discovery</string>
+    <string name="discovery_scan_description">正在搜尋…</string>
+    <string name="discovery_scan_title">搜尋設備</string>
     <string name="discovery_select_booting_message">%1$s is booting…</string>
     <string name="discovery_select_booting_message_fallback">Device is booting…</string>
     <string name="discovery_select_connection">Connection</string>
@@ -1387,7 +1387,7 @@ Could you please send us an email describing what makes you unsatisfied with the
     <string name="discovery_select_title">%1$s Devices Found</string>
     <string name="discovery_select_title_single">New Device found</string>
     <string name="discovery_select_unknown">未知</string>
-    <string name="discovery_select_uptime">Uptime</string>
+    <string name="discovery_select_uptime">在線時間</string>
     <string name="discovery_select_uptime_empty_value">0m 0s</string>
     <string name="error_dialog_discard_changes">Discard Changes</string>
     <string name="error_dialog_okay">Okay</string>
@@ -1485,7 +1485,7 @@ Try it again."</string>
     <string name="fragment_configuration_general_status_led_enabled_text">Status LED enabled</string>
     <string name="fragment_configuration_general_title_text">General</string>
     <string name="fragment_configuration_header_name_hint">Device name</string>
-    <string name="fragment_configuration_header_state">Connected</string>
+    <string name="fragment_configuration_header_state">已連接</string>
     <string name="fragment_configuration_inform_failed">Inform failed. Please set correct IP address in app settings.</string>
     <string name="fragment_configuration_ip_config_not_implemented_error">Ip configuration not yet implemented</string>
     <string name="fragment_configuration_network_configure_ip_title_text">Configure IP</string>
@@ -1541,12 +1541,12 @@ Try it again."</string>
     <string name="fragment_controller_setup_content_device_list_empty_title_text">No Devices have been discovered</string>
     <string name="fragment_controller_setup_content_device_list_refresh_text">Refresh</string>
     <string name="fragment_controller_setup_content_device_list_title_text">Please select the devices you would like to configure</string>
-    <string name="fragment_controller_setup_country_title_text">Country</string>
+    <string name="fragment_controller_setup_country_title_text">國家</string>
     <string name="fragment_controller_setup_empty_title_text">"No UniFi OS Consoles found, please make sure you are connected to the same L2 network as your UniFi Cloud Key 
 (Software UniFi OS Console is not supported)"</string>
     <string name="fragment_controller_setup_error_empty_field">Please fill out this field</string>
     <string name="fragment_controller_setup_finish_text">Finish</string>
-    <string name="fragment_controller_setup_next_text">Next</string>
+    <string name="fragment_controller_setup_next_text">下一步</string>
     <string name="fragment_controller_setup_restore_backup_text">Restore from a previous backup</string>
     <string name="fragment_controller_setup_review_admin_email_title_text">Admin Email</string>
     <string name="fragment_controller_setup_review_admin_name_title_text">Admin Name</string>
@@ -1862,7 +1862,7 @@ Try it again."</string>
     <string name="fragment_settings_cloud_access_password_hint">Password</string>
     <string name="fragment_settings_cloud_access_register_text">No account ? Register now.</string>
     <string name="fragment_settings_cloud_access_registered">Registered</string>
-    <string name="fragment_settings_cloud_access_status_connected">Connected</string>
+    <string name="fragment_settings_cloud_access_status_connected">已連接</string>
     <string name="fragment_settings_cloud_access_status_disabled">Disabled</string>
     <string name="fragment_settings_cloud_access_status_title_text">Status</string>
     <string name="fragment_settings_cloud_access_unregistered">Unregistered</string>
@@ -2032,7 +2032,7 @@ Expires:\u0009%3$s"</string>
     <string name="fragment_settings_network_detail_updated">Network updated</string>
     <string name="fragment_settings_network_detail_vlan_hint">VLAN</string>
     <string name="fragment_settings_network_list_deteled">Network deleted</string>
-    <string name="fragment_settings_site_configuration_country_title_text">Country</string>
+    <string name="fragment_settings_site_configuration_country_title_text">國家</string>
     <string name="fragment_settings_site_configuration_name_hint">Site Name</string>
     <string name="fragment_settings_site_configuration_timezone_title_text">Timezone</string>
     <string name="fragment_settings_site_configuration_title_text">Configuration</string>
@@ -2143,9 +2143,9 @@ Expires:\u0009%3$s"</string>
     <string name="fragment_sso_register_terms_text">服務條款</string>
     <string name="fragment_sso_register_username_hint">Username</string>
     <string name="fragment_status_list_empty_title_text">No connected stations found</string>
-    <string name="fragment_status_list_header_state_text">Connected</string>
+    <string name="fragment_status_list_header_state_text">已連接</string>
     <string name="fragment_status_list_overview_ip_address_title_text">IP 地址</string>
-    <string name="fragment_status_list_overview_mac_title_text">MAC Address</string>
+    <string name="fragment_status_list_overview_mac_title_text">MAC 地址</string>
     <string name="fragment_status_list_overview_status_led_title_text">Status LED</string>
     <string name="fragment_status_list_overview_status_led_value_disabled">Disabled</string>
     <string name="fragment_status_list_overview_status_led_value_enabled">Enabled</string>
@@ -2301,7 +2301,7 @@ Expires:\u0009%3$s"</string>
     <string name="generic_title_init">Initializing</string>
     <string name="generic_title_init_ellipsize">Initializing…</string>
     <string name="generic_title_starting_ellipsize">Starting…</string>
-    <string name="get_started_description">Plug in your UniFi device to begin</string>
+    <string name="get_started_description">插入您的 UniFi 設備並在試一次</string>
     <string name="get_started_log_in">Log in to UniFi account</string>
     <string name="get_started_new_device_setup">New Device Setup</string>
     <string name="get_started_title">"Let's Get Started"</string>
@@ -2314,7 +2314,7 @@ Expires:\u0009%3$s"</string>
     <string name="global_action_continue">Continue</string>
     <string name="global_action_deselect_all">Deselect All</string>
     <string name="global_action_disabled">Disabled</string>
-    <string name="global_action_done">Done</string>
+    <string name="global_action_done">完成</string>
     <string name="global_action_downgrade">Downgrade</string>
     <string name="global_action_downgrade_upgrade">Downgrade and upgrade</string>
     <string name="global_action_edit">編輯</string>
@@ -2325,7 +2325,7 @@ Expires:\u0009%3$s"</string>
     <string name="global_action_forget">Forget</string>
     <string name="global_action_locate">定位</string>
     <string name="global_action_login">登錄</string>
-    <string name="global_action_next">Next</string>
+    <string name="global_action_next">下一步</string>
     <string name="global_action_next_extra">Next Extra</string>
     <string name="global_action_no">No</string>
     <string name="global_action_ok">確認</string>
@@ -2351,7 +2351,7 @@ Expires:\u0009%3$s"</string>
     <string name="global_apicall_fail_generic_toast">Whoops! The application has encountered an unknown error.</string>
     <string name="global_apicall_fail_toast">Whoops! Communication with UniFi OS Console failed</string>
     <string name="global_client_list_item_activity_title_text">Activity</string>
-    <string name="global_connected">Connected</string>
+    <string name="global_connected">已連接</string>
     <string name="global_connected_ellipsis">Connected…</string>
     <string name="global_connecting">Connecting…</string>
     <string name="global_connection_failed">Connection failed</string>
@@ -2439,9 +2439,9 @@ Tap here to learn more"</string>
     <string name="global_title_channel">Channel</string>
     <string name="global_title_clients">客戶端</string>
     <string name="global_title_connected_clients">Connected Clients</string>
-    <string name="global_title_country">Country</string>
-    <string name="global_title_credentials">Credentials</string>
-    <string name="global_title_details">Details</string>
+    <string name="global_title_country">國家</string>
+    <string name="global_title_credentials">憑證</string>
+    <string name="global_title_details">詳細資訊</string>
     <string name="global_title_downlinks">Downlinks</string>
     <string name="global_title_email">E-mail</string>
     <string name="global_title_email_banned">Email address is banned!</string>
@@ -2520,7 +2520,7 @@ Tap here to learn more"</string>
     <string name="internet_detail_translate_ip_to_url">將 IP 轉換為 URL</string>
     <string name="internet_detail_unifi_recommended">UniFi (推薦)</string>
     <string name="internet_detail_up_rate_required">Up Rate (kbit) is required when smart queues are enabled</string>
-    <string name="internet_detail_uptime_label">Uptime</string>
+    <string name="internet_detail_uptime_label">在線時間</string>
     <string name="internet_detail_username_cannot_be_empty">Username cannot be empty</string>
     <string name="internet_detail_vlan_id_max_error">ID must be at most %s</string>
     <string name="internet_detail_vlan_id_min_error">ID must be at least %s</string>
@@ -2571,7 +2571,7 @@ Tap here to learn more"</string>
     <string name="internet_edit_isp_capabilities_upload_error">Upload must be at least 1</string>
     <string name="internet_edit_isp_capabilities_upload_speed">Expected upload speed of your ISP connection</string>
     <string name="internet_edit_keep_editing">Keep editing</string>
-    <string name="internet_edit_mac_address">MAC Address</string>
+    <string name="internet_edit_mac_address">MAC 地址</string>
     <string name="internet_edit_mac_address_clone">MAC Address Clone</string>
     <string name="internet_edit_name_empty_error">Name cannot be empty!</string>
     <string name="internet_edit_name_too_long">Network Name must be at most %s characters</string>
@@ -2736,7 +2736,7 @@ Would you like to connect to the server anyway?"</string>
     <string name="lte_details_band_label">Band</string>
     <string name="lte_details_card_title">UniFi LTE</string>
     <string name="lte_details_cell_id_label">Cell ID</string>
-    <string name="lte_details_connected_label">Connected</string>
+    <string name="lte_details_connected_label">已連接</string>
     <string name="lte_details_external_antenna_label">External Antenna</string>
     <string name="lte_details_iccid_label">ICCID</string>
     <string name="lte_details_imei_label">IMEI</string>
@@ -2937,7 +2937,7 @@ Would you like to connect to the server anyway?"</string>
     <string name="network_create_advanced_new_dhcp_option_ipaddress_error_empty">IP Address cannot be empty</string>
     <string name="network_create_advanced_new_dhcp_option_ipaddress_error_invalid">This field must be a valid IPv4 address</string>
     <string name="network_create_advanced_new_dhcp_option_ipaddress_hint">Enter IP Address</string>
-    <string name="network_create_advanced_new_dhcp_option_macaddress">MAC Address</string>
+    <string name="network_create_advanced_new_dhcp_option_macaddress">MAC 地址</string>
     <string name="network_create_advanced_new_dhcp_option_macaddress_error_empty">MAC Address cannot be empty</string>
     <string name="network_create_advanced_new_dhcp_option_macaddress_error_invalid">This field must be a valid MAC address</string>
     <string name="network_create_advanced_new_dhcp_option_macaddress_hint">Enter MAC Address</string>
@@ -3063,7 +3063,7 @@ Would you like to connect to the server anyway?"</string>
     <string name="onboard_permissions_description">For the best UniFi experience, we strongly recommend enabling the following permissions. You can adjust these settings later.</string>
     <string name="onboard_permissions_location">位置</string>
     <string name="onboard_permissions_location_description">Location permission must be enabled to perform a new device setup via Bluetooth or WiFi. Ubiquiti does not track your location.</string>
-    <string name="onboard_permissions_submit">Done</string>
+    <string name="onboard_permissions_submit">完成</string>
     <string name="onboard_permissions_title">Permissions</string>
     <string name="onboarding_login_create_account">Create a new UI.com account</string>
     <string name="onboarding_login_forgot_password">Forgot Password?</string>
@@ -3081,15 +3081,15 @@ Would you like to connect to the server anyway?"</string>
     <string name="overview_component_fan_state_title_text">Fan Level</string>
     <string name="overview_component_ip_title_text">IP 地址</string>
     <string name="overview_component_last_seen_title_text">Last Seen</string>
-    <string name="overview_component_load_average_title_text">Load Average</string>
-    <string name="overview_component_mac_title_text">MAC Address</string>
-    <string name="overview_component_memory_usage_title_text">Memory Usage</string>
+    <string name="overview_component_load_average_title_text">平均負載</string>
+    <string name="overview_component_mac_title_text">MAC 地址</string>
+    <string name="overview_component_memory_usage_title_text">使用記憶體</string>
     <string name="overview_component_power_consumption_title_text">Power Consumption</string>
     <string name="overview_component_relay_state_configured_title">Configured Relay State</string>
     <string name="overview_component_relay_state_current_title">Current Relay State</string>
     <string name="overview_component_temperature_title_text">Temperature</string>
-    <string name="overview_component_uptime_title_text">Uptime</string>
-    <string name="overview_component_version_title_text">Version</string>
+    <string name="overview_component_uptime_title_text">在線時間</string>
+    <string name="overview_component_version_title_text">版本</string>
     <string name="overview_component_wan_ip_title_text">WAN IP Address</string>
     <string name="package_name">iot</string>
     <string name="password_toggle_content_description">顯示密碼</string>
@@ -3183,9 +3183,9 @@ Would you like to connect to the server anyway?"</string>
     <string name="preferences_category_utilities">Utilities</string>
     <string name="preferences_report_key">Report key:    %1$s</string>
     <string name="preferences_report_key_label">UniFi App Report Key</string>
-    <string name="preferences_standalone_device_country_message">Please make sure the country corresponds with the country your devices reside in.</string>
-    <string name="preferences_standalone_device_country_title">Country</string>
-    <string name="preferences_standalone_device_credentials_title">Credentials</string>
+    <string name="preferences_standalone_device_country_message">請確認該國家/地區與您的設備所在的國家/地區一致。</string>
+    <string name="preferences_standalone_device_country_title">國家</string>
+    <string name="preferences_standalone_device_credentials_title">憑證</string>
     <string name="prefs_key_controller_ip">controller_ip</string>
     <string name="prefs_key_controller_speedtest_info">speedtest_info</string>
     <string name="prefs_key_controller_sso_credentials_login">sso_credentials_login</string>
@@ -3333,10 +3333,10 @@ Would you like to connect to the server anyway?"</string>
     <string name="setup_controller_connection_error">Problem while connecting to device!</string>
     <string name="setup_controller_connection_factory_reset_message">If %s has an issue loading, we recommended a factory reset. If the problem persist, please visit &lt;a href=\"https://support.ui.com\">support.ui.com&lt;\\a> for assistance.</string>
     <string name="setup_controller_connection_factory_reset_title">Factory Reset %s</string>
-    <string name="setup_controller_discovery_description">Searching…</string>
+    <string name="setup_controller_discovery_description">正在搜尋…</string>
     <string name="setup_controller_discovery_error_message">Problem while discovering devices!</string>
     <string name="setup_controller_discovery_no_device_message">No devices were found!</string>
-    <string name="setup_controller_discovery_title">Device Discovery</string>
+    <string name="setup_controller_discovery_title">搜尋設備</string>
     <string name="setup_controller_form_account_local_description">"Without remote access (UI.com Account), you'll need to manually add the device after the setup."</string>
     <string name="setup_controller_form_account_local_remote">or click here to set it up with UI.com Account</string>
     <string name="setup_controller_form_account_local_title">Local access credentials</string>
@@ -3369,7 +3369,7 @@ Would you like to connect to the server anyway?"</string>
     <string name="setup_controller_form_name_description_fallback">Name your Device</string>
     <string name="setup_controller_form_name_image">Device Image</string>
     <string name="setup_controller_form_name_input_error">Please enter a name for your device</string>
-    <string name="setup_controller_form_name_mac_title">MAC Address</string>
+    <string name="setup_controller_form_name_mac_title">MAC 地址</string>
     <string name="setup_controller_form_name_name">名稱</string>
     <string name="setup_controller_form_name_public_ip_title">Internet Address</string>
     <string name="setup_controller_form_name_title">%s Setup</string>
@@ -3388,7 +3388,7 @@ Would you like to connect to the server anyway?"</string>
     <string name="setup_controller_form_troubleshoot_internet_connected_description">The %s is connected to the Internet.</string>
     <string name="setup_controller_form_troubleshoot_internet_connected_title">Internet Connected!</string>
     <string name="setup_controller_form_troubleshoot_no_internet_button_troubleshoot">Troubleshoot</string>
-    <string name="setup_controller_form_troubleshoot_no_internet_button_try_again">Try again</string>
+    <string name="setup_controller_form_troubleshoot_no_internet_button_try_again">再試一次</string>
     <string name="setup_controller_form_troubleshoot_no_internet_description">Ensure your modem is connected to the Internet.</string>
     <string name="setup_controller_form_troubleshoot_no_internet_title">No Internet Detected</string>
     <string name="setup_controller_form_troubleshoot_restart_modem_button_restarted">"I've restarted the modem"</string>
@@ -3427,7 +3427,7 @@ Power your modem off and on while it is plugged into the Dream Machine. This pro
     <string name="setup_controller_provision_dialog_quit_message">Do you really want to stop the setup?</string>
     <string name="setup_controller_selection_device_distance">Distance</string>
     <string name="setup_controller_selection_device_ip">IP 地址</string>
-    <string name="setup_controller_selection_device_uptime">Uptime</string>
+    <string name="setup_controller_selection_device_uptime">在線時間</string>
     <string name="setup_controller_selection_select">設定</string>
     <string name="setup_controller_selection_title_fallback">Devices Found</string>
     <string name="setup_controller_selection_title_multi">%1$d Devices Found</string>
@@ -3471,16 +3471,16 @@ Power your modem off and on while it is plugged into the Dream Machine. This pro
     <string name="setup_device_connection_trouble">Having trouble connecting?</string>
     <string name="setup_device_finished_message">Your device should now appear in the device list.</string>
     <string name="setup_device_finished_title">Finished</string>
-    <string name="setup_device_instructions_message">"If you don't have a WiFi network yet, start the installation of your first device by scanning a QR code on the back side of an AP."</string>
+    <string name="setup_device_instructions_message">"如果您還沒有 WiFi 網絡，請通過掃描 AP 背面的二維碼開始安裝您的第一台設備。"</string>
     <string name="setup_device_instructions_requirements_1">•  UniFi device with a WiFi interface</string>
     <string name="setup_device_instructions_requirements_2">•  UniFi device must be connected to a network with DHCP server</string>
     <string name="setup_device_instructions_requirements_3">•  UniFi device must be in factory-default state (white LED)</string>
-    <string name="setup_device_instructions_requirements_title">Requirements:</string>
-    <string name="setup_device_instructions_title">Connect to AP</string>
+    <string name="setup_device_instructions_requirements_title">須滿足以下條件:</string>
+    <string name="setup_device_instructions_title">與 AP 連線</string>
     <string name="setup_device_manual_code_mac_alert_message">"Didn't recognize the entered code. The device might not support direct connection.
 
 Do you want to try again?"</string>
-    <string name="setup_device_manual_code_mac_alert_positive">Try again</string>
+    <string name="setup_device_manual_code_mac_alert_positive">再試一次</string>
     <string name="setup_device_manual_code_mac_alert_title">Wrong Code</string>
     <string name="setup_device_manual_code_mac_id_hint">XXXXXXXXXXXX-XXXXXX</string>
     <string name="setup_device_manual_code_mac_id_label">MAC ID:</string>
@@ -3498,7 +3498,7 @@ Do you want to try again?"</string>
 
 Then enter the following credentials."</string>
     <string name="setup_device_manual_connect_title">"Connect to AP's WiFi"</string>
-    <string name="setup_device_next_button_label">Next</string>
+    <string name="setup_device_next_button_label">下一步</string>
     <string name="setup_device_permissions_camera_message">"To be able to read the qr code on the back side of your access point. Android needs camera permission to be granted. Without this you won't be able to read the qr code and will be forced to enter it manually."</string>
     <string name="setup_device_permissions_camera_title">Camera Permission</string>
     <string name="setup_device_permissions_location_alert">"In order to connect you to the device's WiFi automatically, Android will need to enable location services."</string>
@@ -3595,15 +3595,15 @@ Do you want to keep scanning?"</string>
     <string name="standalone_block_list_unblock_alert_title">Unblock Client</string>
     <string name="standalone_block_list_unblock_error">Failed to unblock client.</string>
     <string name="standalone_client_detail_block_action">Block</string>
-    <string name="standalone_client_detail_category">Details</string>
+    <string name="standalone_client_detail_category">詳細資訊</string>
     <string name="standalone_client_detail_ccq">CCQ</string>
     <string name="standalone_client_detail_ip_address">IP 地址</string>
-    <string name="standalone_client_detail_mac_address">MAC Address</string>
+    <string name="standalone_client_detail_mac_address">MAC 地址</string>
     <string name="standalone_client_detail_progress_message">Blocking client…</string>
     <string name="standalone_client_detail_rssi">RSSI</string>
     <string name="standalone_client_detail_title">Client Detail</string>
     <string name="standalone_client_detail_traffic">Traffic</string>
-    <string name="standalone_client_detail_uptime">Uptime</string>
+    <string name="standalone_client_detail_uptime">在線時間</string>
     <string name="standalone_client_list_block_alert_message">Do you really want to block this client?</string>
     <string name="standalone_client_list_block_alert_title">Block Client</string>
     <string name="standalone_client_list_block_error">Failed to block client.</string>
@@ -3612,7 +3612,7 @@ Do you want to keep scanning?"</string>
     <string name="standalone_config_action_label">Configure</string>
     <string name="standalone_config_appbar_title">Standalone Device</string>
     <string name="standalone_config_category_clients">客戶端</string>
-    <string name="standalone_config_category_details">Details</string>
+    <string name="standalone_config_category_details">詳細資訊</string>
     <string name="standalone_config_category_radio2g">Radio 2G</string>
     <string name="standalone_config_category_radio5g">Radio 5G</string>
     <string name="standalone_config_channel">Channel</string>
@@ -3627,7 +3627,7 @@ Do you want to keep scanning?"</string>
     <string name="standalone_config_format_traffic_empty">0 B</string>
     <string name="standalone_config_format_tx_power">%1$d dBm</string>
     <string name="standalone_config_ip_address">IP 地址</string>
-    <string name="standalone_config_mac_address">MAC Address</string>
+    <string name="standalone_config_mac_address">MAC 地址</string>
     <string name="standalone_config_not_supported">Standalone configuration of this device is not currently supported…</string>
     <string name="standalone_config_not_supported_title">Device not supported</string>
     <string name="standalone_config_ssh_credentials_dialog_message">Enter credentials for the device.</string>
