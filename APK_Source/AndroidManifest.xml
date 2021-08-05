@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" android:installLocation="auto" package="com.ubnt.easyunifi" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.ui.app.storage.provider.APP_SESSION"/>
+    <uses-permission android:name="com.ui.app.develop.storage.provider.APP_SESSION"/>
+    <uses-permission android:name="com.ui.app.nightly.storage.provider.APP_SESSION"/>
+    <uses-permission android:name="com.ui.app.weekly.storage.provider.APP_SESSION"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.fingerprint" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:label="UniFi Network" android:name="com.ubnt.unifi.network.UnifiApplication" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="false" android:theme="@style/Theme.Unifi.Light" android:usesCleartextTraffic="true">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:name="com.ubnt.unifi.network.splashscreen.SplashScreenActivity" android:theme="@style/Theme.Unifi.Network">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ubnt.unifi.network.notifications.NotificationActivity"/>
+        <activity android:name="com.ubnt.unifi.app.UniFiAppUriResolverActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="unifi-network"/>
+                <data android:host="com.ubnt.easyunifi"/>
+                <data android:pathPattern="/connect/.*/.*/"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ubnt.unifi.network.welcome.WelcomeActivity" android:theme="@style/Theme.Unifi.Network"/>
+        <activity android:name="com.ubnt.unifi.network.onboarding.OnboardingActivity" android:theme="@style/Theme.Unifi.Network" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.ubnt.unifi.network.start.StartActivity" android:theme="@style/Theme.Unifi.Network" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:autoRemoveFromRecents="true" android:name="com.ubnt.unifi.network.start.ExitActivity" android:theme="@style/Theme.Unifi.Network" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.ubnt.unifi.network.controller.ControllerActivity" android:theme="@style/Theme.Unifi.Network" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.ubnt.unifi.network.start.account.settings.theme.ThemesActivity" android:theme="@style/Theme.Unifi.Network"/>
+        <activity android:label="@string/ab_title_activity_sso_accounts" android:name="com.ubnt.unifi.network.start.account.sso.SSOAccountsActivity" android:theme="@style/Theme.Unifi.Network.TabletDialog"/>
+        <activity android:name="com.ubnt.unifi.network.start.account.sso.register.SSORegisterActivity" android:theme="@style/Theme.Unifi.Network.TabletDialog" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:label="@string/account_launch_options_title" android:name="com.ubnt.unifi.network.start.account.launchoptions.LaunchOptionsActivity" android:theme="@style/Theme.Unifi.Network"/>
+        <activity android:name="com.ubnt.unifi.network.start.wizard.controller.ControllerWizardActivity" android:theme="@style/Theme.Unifi.Network.TabletDialog" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:label="@string/device_settings_title" android:name="com.ubnt.unifi.network.start.device.detail.settings.DeviceSettingsActivity" android:theme="@style/Theme.Unifi.Network"/>
+        <activity android:name="com.ubnt.unifi.network.start.account.blog.BlogActivity" android:theme="@style/Theme.Unifi.Network"/>
+        <activity android:name="com.ubnt.unifi.network.start.device.standalone.DeviceStandaloneActivity" android:theme="@style/Theme.Unifi.Network.TabletDialog" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.ubnt.unifi.network.start.account.standalone.StandaloneDeviceActivity" android:theme="@style/Theme.Unifi.Network.TabletDialog" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.ubnt.unifi.network.start.wizard.device.QrWizardActivity" android:theme="@style/Theme.Unifi.Network.TabletDialog" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.ubnt.unifi.network.start.controller.form.add.AddLocalControllerActivity" android:theme="@style/Theme.Unifi.Network.TabletDialog" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.ubnt.easyunifi.activity.DeviceDetailActivity"/>
+        <activity android:name="com.ubnt.controller.activity.DeviceDetailPortDetailActivity"/>
+        <activity android:label="@string/ab_title_settings" android:name="com.ubnt.controller.activity.settings.SettingsDetailActivity"/>
+        <activity android:name="com.ubnt.controller.activity.settings.SettingsWlanGroupDetailActivity"/>
+        <activity android:name="com.ubnt.controller.activity.settings.SettingsWirelessNetworkDetailActivity"/>
+        <activity android:name="com.ubnt.controller.activity.settings.SettingsNetworkDetailActivity"/>
+        <activity android:name="com.ubnt.controller.activity.settings.SettingsAdminDetailActivity"/>
+        <activity android:name="com.ubnt.controller.activity.settings.SettingsUserGroupDetailActivity"/>
+        <activity android:label="@string/ab_title_settings_hotspot_manager" android:name="com.ubnt.controller.activity.HotspotManagerActivity" android:theme="@style/Theme.Unifi.Network"/>
+        <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="false"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyA7gmCgsLtGRez4dHwKPOH4uBBEtTFKQVk"/>
+        <meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
+        <meta-data android:name="firebase_crash_collection_enabled" android:value="false"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/icon_notification"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="@string/remote_controller_notification_channel_id"/>
+        <service android:exported="false" android:name="com.ubnt.unifi.network.notifications.UiMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:label="" android:name="com.ubnt.keystore.FingerprintActivity" android:theme="@style/Theme.AppCompat.Light.Dialog"/>
+        <activity android:label="" android:name="com.ubnt.keystore.LockScreenActivity" android:theme="@style/Theme.AppCompat.Light.Dialog"/>
+        <activity android:label="" android:name="com.ubnt.keystore.KeyStoreDeletedDialogActivity" android:theme="@style/Theme.AppCompat.Light.Dialog"/>
+        <activity android:label="" android:name="com.ubnt.keystore.KeyStoreUnlockingProblemDialogActivity" android:theme="@style/Theme.AppCompat.Light.Dialog"/>
+        <provider android:authorities="com.ubnt.easyunifi.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:clearTaskOnLaunch="true" android:name="com.journeyapps.barcodescanner.CaptureActivity" android:screenOrientation="sensorLandscape" android:stateNotNeeded="true" android:theme="@style/zxing_CaptureTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:authorities="com.ubnt.easyunifi.appctxinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="900" android:name="splitties.init.AppCtxInitProvider"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.ubnt.easyunifi.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+    </application>
+</manifest>
