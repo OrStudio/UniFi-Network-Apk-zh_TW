@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingBottom="@dimen/global_metric_96" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/fragment_settings_cloud_access_enable_layout" android:background="@color/darkgray" android:padding="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Switch android:textColor="@color/global_text_primary_inverse" android:id="@id/fragment_settings_cloud_access_enable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_settings_cloud_access_enable_text" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/fragment_padding_horizontal" android:paddingTop="@dimen/fragment_padding_vertical" android:paddingRight="@dimen/fragment_padding_horizontal" android:paddingBottom="@dimen/fragment_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/global_metric_8">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SettingsStatus">
+                <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_settings_cloud_access_status_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_settings_cloud_access_status_title_text" />
+                <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:id="@id/fragment_settings_cloud_access_status" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StateIndicator" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/fragment_settings_cloud_access_configured_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_settings_cloud_access_configured_for_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_settings_cloud_access_configured_for_title_text" style="@style/SettingsSubtitle" />
+                <TextView android:id="@id/fragment_settings_cloud_access_configured_for" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/global_metric_16" />
+                <include layout="@layout/view_separator" />
+                <Button android:id="@id/fragment_settings_cloud_access_disable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" android:text="@string/fragment_settings_cloud_access_disable_text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/fragment_settings_cloud_access_unconfigured_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/fragment_settings_cloud_access_email_or_username_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/fragment_settings_cloud_access_email_or_username_hint" style="@style/SettingsTextInputLayout">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@id/fragment_settings_cloud_access_email_or_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" android:imeOptions="actionNext" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/fragment_settings_cloud_access_password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/fragment_settings_cloud_access_password_hint" style="@style/SettingsTextInputLayout">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@id/fragment_settings_cloud_access_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:imeOptions="actionDone" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <Button android:id="@id/fragment_settings_cloud_access_register" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" android:text="@string/fragment_settings_cloud_access_register_text" />
+                <Button android:id="@id/fragment_settings_cloud_access_login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" android:text="@string/fragment_settings_cloud_access_login_text" style="@style/Button.Accent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

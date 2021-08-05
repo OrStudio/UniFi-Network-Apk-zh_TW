@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/icon_mail" android:id="@id/menu_fragment_settings_user_group_list_item_edit" android:title="@string/menu_fragment_settings_user_group_list_item_edit_text" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/icon_delete_white" android:id="@id/menu_fragment_settings_user_group_list_item_delete" android:title="@string/menu_fragment_settings_user_group_list_item_delete_text" app:showAsAction="always" />
+</menu>

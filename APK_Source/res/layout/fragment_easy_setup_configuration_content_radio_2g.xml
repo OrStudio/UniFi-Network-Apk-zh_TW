@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/fragment_configuration_radio_2g" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.UniFi.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/fragment_configuration_radio_2g_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/global_radio_2g_title_text" style="@style/StandaloneDeviceConfigurationTitle" />
+        <LinearLayout android:orientation="vertical" android:id="@id/fragment_configuration_radio_2g_layout" android:paddingLeft="@dimen/global_metric_16" android:paddingRight="@dimen/global_metric_16" android:paddingBottom="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/fragment_configuration_radio_2g_channel" android:paddingTop="@dimen/global_metric_8" android:paddingBottom="@dimen/global_metric_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Spinner android:id="@id/fragment_configuration_radio_2g_channel_number" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <Space android:layout_width="@dimen/global_metric_8" android:layout_height="wrap_content" />
+                <Spinner android:id="@id/fragment_configuration_radio_2g_channel_ht" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <Spinner android:id="@id/fragment_configuration_radio_2g_transmit_power" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/fragment_configuration_radio_2g_wlan_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16">
+                <TextView android:id="@id/fragment_configuration_radio_2g_wlan_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_configuration_radio_wlan_title_text" style="@style/ConfigurationSubtitle" />
+                <Spinner android:gravity="center_vertical" android:id="@id/fragment_configuration_radio_2g_wlan_encryption" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SpinnerUnderline" />
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/fragment_configuration_radio_2g_wlan_ssid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/fragment_configuration_radio_wlan_ssid_hint" style="@style/SettingsTextInputLayout">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@id/fragment_configuration_radio_2g_wlan_ssid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textAutoComplete" android:imeOptions="actionNext" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/fragment_configuration_radio_2g_wlan_security_key_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/fragment_configuration_radio_wlan_security_key_hint" style="@style/SettingsTextInputLayout">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@id/fragment_configuration_radio_2g_wlan_security_key" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:imeOptions="actionDone" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <Switch android:id="@id/fragment_configuration_radio_2g_wlan_enabled" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_configuration_radio_wlan_enabled_text" style="@style/SettingsSwitch" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

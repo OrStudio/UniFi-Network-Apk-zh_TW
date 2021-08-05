@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/fragment_device_detail_rf_scan_list_empty_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/fragment_device_detail_rf_scan_list_empty_caption" android:padding="@dimen/global_metric_16" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_device_detail_rf_scan_list_empty_caption_text" />
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

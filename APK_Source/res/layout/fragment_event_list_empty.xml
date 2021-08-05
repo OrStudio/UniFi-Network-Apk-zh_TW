@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/global_metric_24" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_events" style="@style/EmptyPlaceholderImage" />
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1.Bold" android:gravity="center" android:id="@id/fragment_event_list_empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" android:text="@string/fragment_event_list_empty_title_text" />
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:gravity="center" android:id="@id/fragment_event_list_empty_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_4" android:text="@string/fragment_event_list_empty_caption_text" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

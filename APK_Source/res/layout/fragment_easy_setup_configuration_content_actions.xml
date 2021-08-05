@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/fragment_configuration_actions" android:padding="@dimen/global_metric_16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/fragment_configuration_actions_restart" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fragment_configuration_actions_restart_text" android:layout_weight="1.0" style="@style/Button.Gray" />
+        <Space android:layout_width="@dimen/global_metric_16" android:layout_height="wrap_content" />
+        <Button android:id="@id/fragment_configuration_actions_locate" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fragment_configuration_actions_locate_text" android:layout_weight="1.0" style="@style/Button.Gray" />
+        <Space android:layout_width="@dimen/global_metric_16" android:layout_height="wrap_content" />
+        <Button android:id="@id/fragment_configuration_actions_rf_scan" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fragment_configuration_actions_rf_scan_text" android:layout_weight="1.0" style="@style/Button.Gray" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/global_metric_16">
+        <TextView android:textColor="#ffbe1e2d" android:id="@id/fragment_configuration_actions_apply_warning" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/global_metric_16" android:text="@string/fragment_configuration_actions_apply_warning_text" />
+        <Button android:id="@id/fragment_configuration_actions_apply" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_configuration_actions_apply_text" style="@style/Button.Accent" />
+    </LinearLayout>
+</LinearLayout>

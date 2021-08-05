@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/icon_delete_white" android:id="@id/menu_fragment_settings_admin_list_item_rewoke" android:title="@string/menu_fragment_settings_admin_list_item_rewoke_text" app:showAsAction="always" />
+    <item android:icon="@drawable/icon_mail" android:id="@id/menu_fragment_settings_admin_list_item_reinvite" android:visible="false" android:title="@string/menu_fragment_settings_admin_list_item_reinvite_text" app:showAsAction="ifRoom" />
+</menu>

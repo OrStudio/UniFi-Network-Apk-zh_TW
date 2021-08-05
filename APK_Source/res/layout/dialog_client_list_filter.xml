@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_custom_login" android:padding="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fragment_padding_horizontal" android:layout_marginTop="@dimen/fragment_padding_vertical" android:layout_marginRight="@dimen/fragment_padding_horizontal" android:layout_marginBottom="@dimen/fragment_padding_vertical">
+        <Spinner android:id="@id/dialog_client_list_filter_sort" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" />
+        <RadioGroup android:id="@id/dialog_client_list_filter_connections" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16">
+            <RadioButton android:id="@id/dialog_client_list_filter_connections_all" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/dialog_client_list_filter_connections_all_text" style="@style/ListFilterDialogItem" />
+            <RadioButton android:id="@id/dialog_client_list_filter_connections_wired" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_client_list_filter_connections_wired_text" style="@style/ListFilterDialogItem" />
+            <RadioButton android:id="@id/dialog_client_list_filter_connections_wireless" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_client_list_filter_connections_wireless_text" style="@style/ListFilterDialogItem" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

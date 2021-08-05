@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/EmptyPlaceholderContainer">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_devices" style="@style/EmptyPlaceholderImage" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_list_message_empty" style="@style/EmptyPlaceholderText" />
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

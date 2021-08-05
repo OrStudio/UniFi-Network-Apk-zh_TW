@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/global_metric_24" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:gravity="center" android:id="@id/fragment_settings_wireless_network_list_empty_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_4" android:text="@string/fragment_settings_wireless_network_list_empty_caption_text" />
+</LinearLayout>

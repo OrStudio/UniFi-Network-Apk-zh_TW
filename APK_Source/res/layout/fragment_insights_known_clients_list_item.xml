@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?panel_ripple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/global_metric_16" android:paddingTop="@dimen/global_metric_12" android:paddingRight="@dimen/global_metric_16" android:paddingBottom="@dimen/global_metric_12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_insights_known_clients_list_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:id="@id/fragment_insights_known_clients_list_item_last_seen" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.ubnt.common.refactored.util.ui.view.DIDirectionView android:id="@id/fragment_insights_known_clients_list_item_upload_download" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/fragment_insights_list_item_actions" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fragment_insights_known_clients_list_item_actions_block" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InsightsListItemActionLayout">
+                <ImageView android:layout_width="@dimen/global_metric_24" android:layout_height="@dimen/global_metric_24" android:src="@drawable/icon_block" android:tint="@color/global_color_accent" />
+                <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption.Small.Accent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_4" android:text="@string/fragment_insights_list_item_actions_block_text" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fragment_insights_known_clients_list_item_actions_unblock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/InsightsListItemActionLayout">
+                <ImageView android:layout_width="@dimen/global_metric_24" android:layout_height="@dimen/global_metric_24" android:src="@drawable/icon_unblock" android:tint="@color/global_color_accent" />
+                <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption.Small.Accent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_4" android:text="@string/fragment_insights_list_item_actions_unblock_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/view_separator" />
+</LinearLayout>

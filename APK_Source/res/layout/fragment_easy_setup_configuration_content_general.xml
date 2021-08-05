@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/fragment_configuration_general" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.UniFi.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/fragment_configuration_general_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_configuration_general_title_text" style="@style/StandaloneDeviceConfigurationTitle" />
+        <Switch android:id="@id/fragment_configuration_general_status_led_enabled" android:padding="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_configuration_general_status_led_enabled_text" style="@style/SettingsSwitch" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

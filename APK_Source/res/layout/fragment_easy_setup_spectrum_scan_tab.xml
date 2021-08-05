@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?color_panel_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/spectrumList" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="5.0dip" android:layout_weight="1.0" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    <ImageView android:background="@color/color_space_global_white" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/spectrum" android:layout_weight="0.0" />
+</LinearLayout>

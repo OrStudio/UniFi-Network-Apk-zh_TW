@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/fragment_welcome_item" android:background="@drawable/global_selector_clickable_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListItemMainVerticalContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/global_metric_8" android:paddingBottom="@dimen/global_metric_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/fragment_welcome_item_image" android:layout_width="@dimen/global_metric_32" android:layout_height="@dimen/global_metric_32" android:layout_marginLeft="@dimen/global_metric_16" android:layout_marginRight="@dimen/global_metric_16" android:src="@drawable/icon_cloud_key" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/global_metric_16" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:ellipsize="end" android:id="@id/fragment_local_controller_list_item_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption.Small" android:ellipsize="end" android:gravity="right" android:id="@id/fragment_local_controller_list_item_ip_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_metric_16" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/view_separator" style="@style/ListItemSeparator" />
+</LinearLayout>

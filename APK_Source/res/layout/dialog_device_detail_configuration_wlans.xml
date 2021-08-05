@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fragment_padding_horizontal" android:layout_marginTop="@dimen/fragment_padding_vertical" android:layout_marginRight="@dimen/fragment_padding_horizontal" android:layout_marginBottom="@dimen/fragment_padding_vertical">
+        <CheckBox android:id="@id/dialog_device_detail_configuration_wlans_enabled" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" android:text="@string/dialog_device_detail_configuration_wlans_enabled_text" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dialog_device_detail_configuration_wlans_use_vlan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16">
+            <CheckBox android:id="@id/dialog_device_detail_configuration_wlans_use_vlan_checkbox" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/dialog_device_detail_configuration_wlans_use_vlan_checkbox_text" android:layout_weight="1.0" />
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/dialog_device_detail_configuration_wlans_use_vlan_id_hint">
+                <com.google.android.material.textfield.TextInputEditText android:enabled="false" android:id="@id/dialog_device_detail_configuration_wlans_use_vlan_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/global_metric_48" android:inputType="numberDecimal" android:imeOptions="actionNext" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_8" android:hint="@string/dialog_device_detail_configuration_wlans_ssid_hint">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/dialog_device_detail_configuration_wlans_ssid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_8" android:hint="@string/dialog_device_detail_configuration_wlans_password_hint">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/dialog_device_detail_configuration_wlans_password" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:imeOptions="actionDone" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button android:id="@id/dialog_device_detail_configuration_wlans_revert" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_8" android:text="@string/dialog_device_detail_configuration_wlans_revert_text" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="androidcolors">
+        <item>@color/ubnt_sdn_blue_light</item>
+        <item>@color/ubnt_sdn_purple</item>
+        <item>@color/ubnt_sdn_green_light</item>
+        <item>@color/ubnt_sdn_orange</item>
+        <item>@color/ubnt_sdn_red</item>
+        <item>@color/ubnt_sdn_blue</item>
+        <item>@color/ubnt_sdn_purple_dark</item>
+        <item>@color/ubnt_sdn_green</item>
+    </array>
+    <string-array name="channel_2ghz">
+        <item>Auto</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="channel_5ghz">
+        <item>Auto</item>
+        <item>36</item>
+        <item>40</item>
+        <item>44</item>
+        <item>48</item>
+        <item>149</item>
+        <item>153</item>
+        <item>157</item>
+        <item>161</item>
+    </string-array>
+    <string-array name="dialog_client_list_filter_sort_titles">
+        <item>Name</item>
+        <item>Uptime</item>
+        <item>Network Activity</item>
+        <item>Connection Type</item>
+        <item>Signal Strength</item>
+    </string-array>
+    <string-array name="dialog_device_list_filter_sort_titles">
+        <item>Name</item>
+        <item>Uptime</item>
+        <item>Status</item>
+        <item>Model</item>
+    </string-array>
+    <string-array name="dialog_settings_hotspot_manager_voucher_expiration_time_custom_unit_titles">
+        <item>minutes</item>
+        <item>hours</item>
+        <item>days</item>
+    </string-array>
+    <string-array name="dialog_settings_hotspot_manager_voucher_expiration_time_custom_unit_values">
+        <item>1</item>
+        <item>60</item>
+        <item>1440</item>
+    </string-array>
+    <string-array name="dialog_settings_hotspot_manager_voucher_expiration_time_titles">
+        <item>8 hours</item>
+        <item>24 hours</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>7 days</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="dialog_settings_hotspot_manager_voucher_expiration_time_values">
+        <item>480</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>custom</item>
+    </string-array>
+    <string-array name="encryption_mode">
+        <item>Open</item>
+        <item>WPA-PERSONAL</item>
+    </string-array>
+    <string-array name="encryption_types">
+        <item>none</item>
+        <item>WEP</item>
+        <item>WPA</item>
+        <item>WPA2</item>
+    </string-array>
+    <string-array name="fragment_client_list_connections_array">
+        <item>All</item>
+        <item>Wired</item>
+        <item>Wireless</item>
+    </string-array>
+    <string-array name="fragment_client_list_stations_array">
+        <item>All</item>
+        <item>Users</item>
+        <item>Guests</item>
+    </string-array>
+    <array name="fragment_dashboard_clients_pie_chart_colors">
+        <item>@color/dashboard_wlan</item>
+        <item>@color/dashboard_wan</item>
+    </array>
+    <array name="fragment_dashboard_pie_chart_colors">
+        <item>@color/dashboard_wlan</item>
+        <item>@color/dashboard_lan</item>
+        <item>@color/dashboard_wan</item>
+        <item>@color/dashboard_pending</item>
+        <item>@color/dashboard_disconnected</item>
+    </array>
+    <string-array name="fragment_device_detail_configuration_services_stp_priority">
+        <item>0</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>12288</item>
+        <item>16384</item>
+        <item>20480</item>
+        <item>24576</item>
+        <item>28672</item>
+        <item>32768</item>
+        <item>36864</item>
+        <item>40960</item>
+        <item>45056</item>
+        <item>49152</item>
+        <item>53248</item>
+        <item>57344</item>
+        <item>61440</item>
+    </string-array>
+    <string-array name="fragment_device_detail_configuration_wan_dynamic_dns_services">
+        <item>afraid</item>
+        <item>dnspark</item>
+        <item>dslreports</item>
+        <item>dyndns</item>
+        <item>easydns</item>
+        <item>namecheap</item>
+        <item>sitelutions</item>
+        <item>zoneedit</item>
+    </string-array>
+    <string-array name="fragment_device_list_type_array">
+        <item>All</item>
+        <item>Gateway/Switches</item>
+        <item>APS</item>
+        <item>Phones</item>
+    </string-array>
+    <string-array name="fragment_event_list_number_of_hours_titles">
+        <item>Last hour</item>
+        <item>Last 8 hours</item>
+        <item>Last 24 hours</item>
+        <item>Last 48 hours</item>
+        <item>7 days</item>
+        <item>2 weeks</item>
+        <item>30 days</item>
+    </string-array>
+    <string-array name="fragment_event_list_number_of_hours_values">
+        <item>1</item>
+        <item>8</item>
+        <item>24</item>
+        <item>48</item>
+        <item>168</item>
+        <item>336</item>
+        <item>720</item>
+    </string-array>
+    <string-array name="fragment_insights_number_of_hours_titles">
+        <item>Last 1 hour</item>
+        <item>Last 12 hours</item>
+        <item>Last 24 hours</item>
+        <item>3 days</item>
+        <item>7 days</item>
+        <item>2 weeks</item>
+        <item>30 days</item>
+        <item>120 days</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="fragment_insights_number_of_hours_values">
+        <item>1</item>
+        <item>12</item>
+        <item>24</item>
+        <item>72</item>
+        <item>168</item>
+        <item>336</item>
+        <item>720</item>
+        <item>2880</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="fragment_settings_admin_detail_role_titles">
+        <item>Administrator</item>
+        <item>Read only</item>
+    </string-array>
+    <string-array name="fragment_settings_admin_detail_role_values">
+        <item>admin</item>
+        <item>readonly</item>
+    </string-array>
+    <string-array name="fragment_settings_controller_support_messaging_text">
+        <item>Enable Live Support for the Super Admin only</item>
+        <item>Enable Live Support for all users</item>
+        <item>Disable Live Support for all users</item>
+    </string-array>
+    <string-array name="fragment_settings_controller_support_messaging_values">
+        <item>super-only</item>
+        <item>everyone</item>
+        <item>disabled</item>
+    </string-array>
+    <string-array name="fragment_settings_guest_control_expiration_texts">
+        <item>8 hours</item>
+        <item>24 hours</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>7 days</item>
+        <item>User-defined</item>
+    </string-array>
+    <string-array name="fragment_settings_guest_control_expiration_time_unit_texts">
+        <item>Minutes</item>
+        <item>Hours</item>
+        <item>Days</item>
+    </string-array>
+    <string-array name="fragment_settings_guest_control_expiration_time_unit_values">
+        <item>1</item>
+        <item>60</item>
+        <item>1440</item>
+    </string-array>
+    <string-array name="fragment_settings_guest_control_expiration_values">
+        <item>480</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+        <item>custom</item>
+    </string-array>
+    <string-array name="fragment_settings_maintenance_services_backup_data_retention_texts">
+        <item>7 days</item>
+        <item>30 days</item>
+        <item>60 days</item>
+        <item>90 days</item>
+        <item>180 days</item>
+        <item>365 days</item>
+        <item>All time</item>
+    </string-array>
+    <string-array name="fragment_settings_maintenance_services_backup_data_retention_values">
+        <item>7</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>180</item>
+        <item>365</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="fragment_settings_maintenance_services_historical_data_retention_texts">
+        <item>7 days</item>
+        <item>30 days</item>
+        <item>60 days</item>
+        <item>90 days</item>
+        <item>180 days</item>
+        <item>365 days</item>
+        <item>Disabled</item>
+    </string-array>
+    <string-array name="fragment_settings_maintenance_services_historical_data_retention_values">
+        <item>7</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>180</item>
+        <item>365</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="fragment_settings_maintenance_services_log_level_texts">
+        <item>Normal</item>
+        <item>More</item>
+        <item>Debug</item>
+    </string-array>
+    <string-array name="fragment_settings_maintenance_services_log_level_values">
+        <item>warn</item>
+        <item>info</item>
+        <item>debug</item>
+    </string-array>
+    <string-array name="fragment_settings_wireless_network_detail_wep_key_index_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="ip_modes">
+        <item>Using DHCP</item>
+        <item>Static IP</item>
+    </string-array>
+    <string-array name="mode_2ghz">
+        <item>HT20</item>
+        <item>HT40</item>
+    </string-array>
+    <string-array name="mode_5ghz">
+        <item>HT20</item>
+        <item>HT40</item>
+        <item>HT80</item>
+    </string-array>
+    <array name="spectrum_colors">
+        <item>@color/spectral_scan_00</item>
+        <item>@color/spectral_scan_01</item>
+        <item>@color/spectral_scan_02</item>
+        <item>@color/spectral_scan_03</item>
+        <item>@color/spectral_scan_04</item>
+        <item>@color/spectral_scan_05</item>
+        <item>@color/spectral_scan_06</item>
+        <item>@color/spectral_scan_07</item>
+        <item>@color/spectral_scan_08</item>
+        <item>@color/spectral_scan_09</item>
+        <item>@color/spectral_scan_10</item>
+        <item>@color/spectral_scan_11</item>
+    </array>
+    <string-array name="spinner_list_item_array">
+        <item>Known Clients</item>
+        <item>Neighboring Access Points</item>
+        <item>Past Connections</item>
+        <item>Past Guest Authorizations</item>
+        <item>Switch Stats</item>
+    </string-array>
+    <string-array name="tx_power">
+        <item>Auto</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="wep_key_index">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="wep_key_length">
+        <item>64 bit</item>
+        <item>128 bit</item>
+    </string-array>
+    <string-array name="wep_key_type">
+        <item>HEX</item>
+        <item>ASCII</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fragment_padding_horizontal" android:layout_marginTop="@dimen/fragment_padding_vertical" android:layout_marginRight="@dimen/fragment_padding_horizontal" android:layout_marginBottom="@dimen/fragment_padding_vertical">
+        <Spinner android:id="@id/dialog_event_list_filter_number_of_hours" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" />
+        <RadioGroup android:id="@id/dialog_event_list_filter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16">
+            <RadioButton android:id="@id/dialog_event_list_filter_all" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/dialog_event_list_filter_all_text" style="@style/ListFilterDialogItem" />
+            <RadioButton android:id="@id/dialog_event_list_filter_admin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_event_list_filter_admin_text" style="@style/ListFilterDialogItem" />
+            <RadioButton android:id="@id/dialog_event_list_filter_lan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_event_list_filter_lan_text" style="@style/ListFilterDialogItem" />
+            <RadioButton android:id="@id/dialog_event_list_filter_wlan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_event_list_filter_wlan_text" style="@style/ListFilterDialogItem" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

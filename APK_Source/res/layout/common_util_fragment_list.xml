@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center" android:id="@id/common_util_fragment_list_empty_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/global_message_no_data" style="@style/TextAppearance.UniFi.Caption" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/common_util_fragment_list_recycler" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

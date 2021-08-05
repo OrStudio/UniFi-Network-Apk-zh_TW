@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fragment_padding_horizontal" android:layout_marginTop="@dimen/fragment_padding_vertical" android:layout_marginRight="@dimen/fragment_padding_horizontal" android:layout_marginBottom="@dimen/fragment_padding_vertical">
+        <Spinner android:id="@id/dialog_dynamic_dns_service" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_8" android:hint="@string/dialog_dynamic_dns_hostname_hint">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/dialog_dynamic_dns_hostname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textAutoComplete" android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/dialog_dynamic_dns_username_hint">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/dialog_dynamic_dns_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textAutoComplete" android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/dialog_dynamic_dns_password_hint">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/dialog_dynamic_dns_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPassword" android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/dialog_dynamic_dns_server_hint">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/dialog_dynamic_dns_server" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textAutoComplete" android:imeOptions="actionDone" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</ScrollView>

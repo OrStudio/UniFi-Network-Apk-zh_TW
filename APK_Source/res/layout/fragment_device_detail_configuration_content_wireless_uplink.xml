@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/fragment_device_detail_configuration_content_wireless_uplink" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.UniFi.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/cardview_header_container">
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Title" android:id="@id/fragment_device_detail_configuration_wireless_uplink_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fragment_device_detail_configuration_wireless_uplink_title_text" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/global_metric_16" android:paddingRight="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/fragment_device_detail_configuration_wireless_uplink_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

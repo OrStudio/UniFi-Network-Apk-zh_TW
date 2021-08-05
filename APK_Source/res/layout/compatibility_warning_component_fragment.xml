@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/darkorange" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/abstract_warning_component_image" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/info_alert" android:tint="@color/white" android:contentDescription="@string/global_message_warning" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textColor="@color/white" android:id="@id/abstract_warning_component_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" app:layout_constraintLeft_toRightOf="@id/abstract_warning_component_image" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearance.UniFi.Caption" />
+        <TextView android:textColor="@color/white" android:id="@id/abstract_warning_component_description" android:paddingTop="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" app:layout_constraintLeft_toRightOf="@id/abstract_warning_component_image" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/abstract_warning_component_title" style="@style/TextAppearance.UniFi.Caption.Small" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

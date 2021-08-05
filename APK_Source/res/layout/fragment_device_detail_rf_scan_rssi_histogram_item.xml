@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/fragment_device_detail_rf_scan_rssi_histogram_item" android:background="@color/spectral_scan_00" android:padding="@dimen/global_metric_2" android:layout_width="@dimen/global_metric_8" android:layout_height="@dimen/global_metric_32"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

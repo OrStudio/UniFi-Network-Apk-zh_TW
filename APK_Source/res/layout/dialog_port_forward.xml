@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fragment_padding_horizontal" android:layout_marginTop="@dimen/fragment_padding_vertical" android:layout_marginRight="@dimen/fragment_padding_horizontal" android:layout_marginBottom="@dimen/fragment_padding_vertical">
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/dialog_port_forward_name_hint">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/dialog_port_forward_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:inputType="textAutoComplete" android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1.Bold" android:id="@id/dialog_port_forward_from_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" android:text="@string/dialog_port_forward_from_title_text" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/dialog_port_forward_from" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16">
+            <RadioButton android:id="@id/dialog_port_forward_from_anywhere" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_port_forward_from_anywhere_text" />
+            <RadioButton android:id="@id/dialog_port_forward_from_limited" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_port_forward_from_limited_text" />
+        </RadioGroup>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/dialog_port_forward_limited_value_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" android:hint="@string/dialog_port_forward_limited_value_hint">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/dialog_port_forward_limited_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:inputType="textAutoComplete" android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/dialog_port_forward_port_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" android:hint="@string/dialog_port_forward_port_hint">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/dialog_port_forward_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:inputType="textAutoComplete" android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" android:hint="@string/dialog_port_forward_forward_ip_hint">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/dialog_port_forward_forward_ip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:inputType="textAutoComplete" android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" android:hint="@string/dialog_port_forward_forward_port_hint">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/dialog_port_forward_forward_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:inputType="textAutoComplete" android:imeOptions="actionDone" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1.Bold" android:id="@id/dialog_port_forward_protocol_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" android:text="@string/dialog_port_forward_protocol_title_text" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/dialog_port_forward_protocol" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16">
+            <RadioButton android:id="@id/dialog_port_forward_protocol_both" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_port_forward_protocol_both_text" />
+            <RadioButton android:id="@id/dialog_port_forward_protocol_tcp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_port_forward_protocol_tcp_text" />
+            <RadioButton android:id="@id/dialog_port_forward_protocol_udp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_port_forward_protocol_udp_text" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

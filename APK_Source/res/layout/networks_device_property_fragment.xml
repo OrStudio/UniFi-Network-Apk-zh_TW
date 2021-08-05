@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:id="@id/networks_device_property_title" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/component_title" />
+    <include layout="@layout/common_util_fragment_list" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.Unifi.ActionBar" android:id="@id/common_util_fragment_toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/common_util_part_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:titleTextAppearance="@style/TextAppearance.UniFi.Toolbar.Title" style="@style/Widget.UniFi.Toolbar" />
+</com.google.android.material.appbar.AppBarLayout>

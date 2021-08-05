@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/fragment_padding_horizontal" android:paddingTop="@dimen/fragment_padding_vertical" android:paddingRight="@dimen/fragment_padding_horizontal" android:paddingBottom="@dimen/fragment_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/global_metric_8">
+        <TextView android:id="@id/fragment_settings_controller_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="@string/fragment_settings_controller_title_text" style="@style/SettingsTitle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/fragment_settings_controller_name_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/fragment_settings_controller_name_hint" style="@style/SettingsTextInputLayout">
+                <com.google.android.material.textfield.TextInputEditText android:id="@id/fragment_settings_controller_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="actionDone" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/fragment_settings_controller_hostname_ip_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/fragment_settings_controller_hostname_ip_hint" style="@style/SettingsTextInputLayout">
+                <com.google.android.material.textfield.TextInputEditText android:id="@id/fragment_settings_controller_hostname_ip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="actionDone" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <Switch android:id="@id/fragment_settings_controller_override_inform_host" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_settings_controller_override_inform_host_text" style="@style/SettingsSwitch" />
+            <TextView android:id="@id/fragment_settings_controller_network_discovery_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_settings_controller_network_discovery_title_text" style="@style/SettingsTitle" />
+            <Switch android:id="@id/fragment_settings_controller_network_discovery" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_settings_controller_network_discovery_text" style="@style/SettingsSwitch" />
+            <Spinner android:id="@id/fragment_settings_controller_support_messaging" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" />
+        </LinearLayout>
+        <include layout="@layout/fragment_settings_controller_content_mail_server" />
+    </LinearLayout>
+</ScrollView>

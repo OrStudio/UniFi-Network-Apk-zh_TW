@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="?panel_ripple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/global_metric_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:id="@id/fragment_settings_wireless_network_list_item_name" android:padding="@dimen/global_metric_8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" />
+        <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:gravity="center|left" android:id="@id/fragment_settings_wireless_network_list_item_security" android:padding="@dimen/global_metric_8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/global_metric_8" android:paddingRight="@dimen/global_metric_8" android:layout_width="@dimen/global_metric_64" android:layout_height="wrap_content">
+            <ImageView android:id="@id/fragment_settings_wireless_network_list_item_guest_network" android:layout_width="@dimen/global_metric_28" android:layout_height="@dimen/global_metric_28" android:src="@drawable/icon_guest" android:tint="?android:textColorPrimary" />
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:gravity="center" android:id="@id/fragment_settings_wireless_network_list_item_vlan_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/global_metric_32" />
+        </LinearLayout>
+        <ImageView android:id="@id/fragment_settings_wireless_network_list_item_edit" android:background="@drawable/global_selector_clickable_item_bg" android:padding="@dimen/global_metric_8" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_edit" android:tint="@color/global_color_accent" style="?panel_ripple" />
+        <ImageView android:id="@id/fragment_settings_wireless_network_list_item_delete" android:padding="@dimen/global_metric_8" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_delete_white" android:tint="@color/global_color_accent" style="?panel_ripple" />
+    </LinearLayout>
+    <include layout="@layout/view_separator" />
+</LinearLayout>

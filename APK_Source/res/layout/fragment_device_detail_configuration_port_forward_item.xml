@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/fragment_device_detail_configuration_port_forward_item_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/fragment_device_detail_configuration_port_forward_item_text" />
+    <TextView android:id="@id/fragment_device_detail_configuration_port_forward_item_from" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/fragment_device_detail_configuration_port_forward_item_text" />
+    <TextView android:id="@id/fragment_device_detail_configuration_port_forward_item_port" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/fragment_device_detail_configuration_port_forward_item_text" />
+    <TextView android:id="@id/fragment_device_detail_configuration_port_forward_item_destination" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" style="@style/fragment_device_detail_configuration_port_forward_item_text" />
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="@dimen/global_metric_80" android:layout_height="wrap_content">
+        <ImageView android:id="@id/fragment_device_detail_configuration_port_forward_item_edit" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/global_metric_8" android:src="@drawable/icon_edit" android:tint="@color/global_color_accent" />
+        <ImageView android:id="@id/fragment_device_detail_configuration_port_forward_item_delete" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/global_metric_8" android:src="@drawable/icon_delete_white" android:tint="@color/global_color_accent" />
+    </LinearLayout>
+</LinearLayout>

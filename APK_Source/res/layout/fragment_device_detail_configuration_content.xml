@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/fragment_device_detail_configuration_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:paddingBottom="@dimen/global_metric_96" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/fragment_device_detail_configuration_content_general" />
+            <include layout="@layout/fragment_device_detail_configuration_content_lte" />
+            <include layout="@layout/fragment_device_detail_configuration_content_networks_vlans" />
+            <include layout="@layout/fragment_device_detail_configuration_content_radios_2g" />
+            <include layout="@layout/fragment_device_detail_configuration_content_radios_5g" />
+            <include layout="@layout/fragment_device_detail_configuration_content_wlans" />
+            <include layout="@layout/fragment_device_detail_configuration_content_services" />
+            <include layout="@layout/fragment_device_detail_configuration_content_network" />
+            <include layout="@layout/fragment_device_detail_configuration_content_wireless_uplink" />
+            <include layout="@layout/fragment_device_detail_configuration_content_band_steering" />
+            <include layout="@layout/fragment_device_detail_configuration_content_airtime_fairness" />
+            <include layout="@layout/fragment_device_detail_configuration_content_reset_button" />
+            <include android:id="@id/fragment_device_detail_configuration_content_wan_1" layout="@layout/fragment_device_detail_configuration_content_wan" />
+            <include android:id="@id/fragment_device_detail_configuration_content_wan_2" layout="@layout/fragment_device_detail_configuration_content_wan" />
+            <include layout="@layout/fragment_device_detail_configuration_content_port_forward" />
+            <include layout="@layout/fragment_device_detail_configuration_content_dynamic_dns" />
+            <include layout="@layout/fragment_device_detail_configuration_content_custom_upgrade" />
+            <include layout="@layout/fragment_device_detail_configuration_content_disable_device" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

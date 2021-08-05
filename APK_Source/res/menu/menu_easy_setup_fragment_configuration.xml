@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/menu_fragment_configuration_actions">
+        <item android:id="@id/menu_fragment_configuration_actions_rf_scan" android:title="@string/menu_fragment_configuration_actions_rf_scan_text" />
+        <item android:id="@id/menu_fragment_configuration_actions_locate" android:title="@string/global_menu_locate_text" />
+        <item android:id="@id/menu_fragment_configuration_actions_restart" android:title="@string/global_menu_restart_text" />
+        <item android:id="@id/menu_fragment_configuration_actions_forget" android:title="@string/global_menu_forget_text" />
+    </group>
+</menu>

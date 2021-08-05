@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/nav_wlan_spinner_item_title" android:padding="@dimen/global_metric_16" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

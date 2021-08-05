@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_insights_spinner_item_title" android:background="@color/global_bg_front" android:padding="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

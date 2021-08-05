@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?panel_ripple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_settings_hotspot_manager_payment_and_transaction_list_item_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Space android:layout_width="@dimen/global_metric_16" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_settings_hotspot_manager_payment_and_transaction_list_item_gateway" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_settings_hotspot_manager_payment_and_transaction_list_item_package" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_settings_hotspot_manager_payment_and_transaction_list_item_extra_info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_settings_hotspot_manager_payment_and_transaction_list_item_first_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_settings_hotspot_manager_payment_and_transaction_list_item_last_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_metric_4" />
+            </LinearLayout>
+        </LinearLayout>
+        <Space android:layout_width="@dimen/global_metric_16" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_settings_hotspot_manager_payment_and_transaction_list_item_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_settings_hotspot_manager_payment_and_transaction_list_item_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_settings_hotspot_manager_payment_and_transaction_list_item_actions" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_metric_16" />
+    </LinearLayout>
+    <include layout="@layout/view_separator" />
+</LinearLayout>

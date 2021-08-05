@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fragment_status_list_header_layout" android:padding="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/fragment_status_list_header_image" android:layout_width="@dimen/global_metric_48" android:layout_height="@dimen/global_metric_48" android:src="@drawable/icon_unifi" />
+        <ImageView android:id="@id/fragment_status_list_header_locating" android:visibility="gone" android:layout_width="@dimen/global_metric_12" android:layout_height="@dimen/global_metric_12" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <Space android:layout_width="@dimen/global_metric_16" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_status_list_header_name" android:padding="@dimen/global_metric_4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:id="@id/fragment_status_list_header_model" android:padding="@dimen/global_metric_4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Space android:layout_width="@dimen/global_metric_16" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:id="@id/fragment_status_list_header_mac" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Space android:layout_width="wrap_content" android:layout_height="@dimen/global_metric_8" />
+        <TextView android:id="@id/fragment_status_list_header_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_status_list_header_state_text" style="@style/StateIndicator" />
+    </LinearLayout>
+</LinearLayout>

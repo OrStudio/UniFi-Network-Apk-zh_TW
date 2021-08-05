@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/fragment_configuration_upgrade" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.UniFi.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/fragment_configuration_upgrade_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_configuration_upgrade_title_text" style="@style/StandaloneDeviceConfigurationTitle" />
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_configuration_upgrade_caption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_configuration_upgrade_caption_text" />
+            <Button android:id="@id/fragment_configuration_upgrade_action" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_configuration_upgrade_action_text" style="@style/ConfigurationButton" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

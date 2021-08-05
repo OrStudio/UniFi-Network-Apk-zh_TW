@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/fragment_device_detail_configuration_content_radios_5g" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.UniFi.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/cardview_header_container">
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Title" android:id="@id/fragment_device_detail_configuration_radios_5g_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fragment_device_detail_configuration_radios_5g_title_text" android:layout_weight="1.0" android:textAllCaps="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/global_metric_16" android:paddingRight="@dimen/global_metric_16" android:paddingBottom="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/fragment_device_detail_configuration_radios_5g_channel" android:paddingTop="@dimen/global_metric_8" android:paddingBottom="@dimen/global_metric_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Spinner android:id="@id/fragment_device_detail_configuration_radios_5g_channel_number" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <Spinner android:id="@id/fragment_device_detail_configuration_radios_5g_channel_ht" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/global_metric_8" android:paddingBottom="@dimen/global_metric_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Spinner android:id="@id/fragment_device_detail_configuration_radios_5g_transmit_power" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/fragment_device_detail_configuration_radios_5g_transmit_power_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textfield.TextInputLayout android:id="@id/fragment_device_detail_configuration_radios_5g_transmit_power_value_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputEditText android:id="@id/fragment_device_detail_configuration_radios_5g_transmit_power_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/fragment_device_detail_config_value" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <TextView android:id="@id/fragment_device_detail_configuration_radios_5g_transmit_power_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_device_detail_configuration_radios_transmit_power_caption_text" style="@style/fragment_device_detail_config_caption" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fragment_device_detail_configuration_radios_5g_antenna_gain" android:paddingTop="@dimen/global_metric_8" android:paddingBottom="@dimen/global_metric_8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1.Bold" android:id="@id/fragment_device_detail_configuration_radios_5g_antenna_gain_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fragment_device_detail_configuration_radios_antenna_gain_title_text" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/fragment_device_detail_configuration_radios_antenna_gain_value_hint">
+                        <com.google.android.material.textfield.TextInputEditText android:id="@id/fragment_device_detail_configuration_radios_5g_antenna_gain_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/fragment_device_detail_config_value" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <TextView android:id="@id/fragment_device_detail_configuration_radios_5g_antenna_gain_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_device_detail_configuration_radios_antenna_gain_caption_text" style="@style/fragment_device_detail_config_caption" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fragment_device_detail_configuration_radios_5g_minimum_rssi_checkbox_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_8">
+                <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1.Bold" android:id="@id/fragment_device_detail_configuration_radios_5g_minimum_rssi_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fragment_device_detail_configuration_radios_minimum_rssi_title_text" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/fragment_device_detail_configuration_radios_5g_minimum_rssi_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/fragment_device_detail_configuration_radios_5g_minimum_rssi_layout" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" />
+                    <com.google.android.material.textfield.TextInputLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/fragment_device_detail_configuration_radios_minimum_rssi_picker_hint">
+                        <com.google.android.material.textfield.TextInputEditText android:id="@id/fragment_device_detail_configuration_radios_5g_minimum_rssi" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/fragment_device_detail_config_value" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <TextView android:id="@id/fragment_device_detail_configuration_radios_5g_minimum_rssi_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_device_detail_configuration_radios_minimum_rssi_caption_text" style="@style/fragment_device_detail_config_caption" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

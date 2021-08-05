@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingBottom="@dimen/global_metric_96" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/fragment_padding_horizontal" android:paddingTop="@dimen/fragment_padding_vertical" android:paddingRight="@dimen/fragment_padding_horizontal" android:paddingBottom="@dimen/fragment_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/global_metric_8">
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/fragment_settings_user_group_detail_name_hint" android:importantForAutofill="noExcludeDescendants" style="@style/SettingsTextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/fragment_settings_user_group_detail_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:inputType="textAutoComplete" android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Switch android:id="@id/fragment_settings_user_group_detail_limit_download" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_settings_user_group_detail_limit_download_text" style="@style/SettingsSwitch" />
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/fragment_settings_user_group_detail_limit_download_value_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/fragment_settings_user_group_detail_limit_download_value_hint" style="@style/SettingsTextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/fragment_settings_user_group_detail_limit_download_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:inputType="number" android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Switch android:id="@id/fragment_settings_user_group_detail_limit_upload" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_settings_user_group_detail_limit_upload_text" style="@style/SettingsSwitch" />
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/fragment_settings_user_group_detail_limit_upload_value_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/fragment_settings_user_group_detail_limit_upload_value_hint" style="@style/SettingsTextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/fragment_settings_user_group_detail_limit_upload_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:inputType="number" android:imeOptions="actionDone" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</ScrollView>

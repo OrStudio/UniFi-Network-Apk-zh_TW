@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/global_metric_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/fragment_insights_port_forward_list_item_name" android:padding="@dimen/global_metric_8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/fragment_insights_port_forward_list_item_from" android:padding="@dimen/global_metric_8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/fragment_insights_port_forward_list_item_protocol" android:padding="@dimen/global_metric_8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/fragment_insights_port_forward_list_item_port" android:padding="@dimen/global_metric_8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/fragment_insights_port_forward_list_item_forward_ip" android:padding="@dimen/global_metric_8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/fragment_insights_port_forward_list_item_forward_port" android:padding="@dimen/global_metric_8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/fragment_insights_port_forward_list_item_packets" android:padding="@dimen/global_metric_8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/fragment_insights_port_forward_list_item_bytes" android:padding="@dimen/global_metric_8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:id="@id/fragment_insights_port_forward_list_item_action_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Edit" />
+    </LinearLayout>
+    <include layout="@layout/view_separator" />
+</LinearLayout>

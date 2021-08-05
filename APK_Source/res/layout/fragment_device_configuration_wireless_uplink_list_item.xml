@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/fragment_device_configuration_wireless_uplink_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListItemMainVerticalContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/global_metric_8" android:paddingBottom="@dimen/global_metric_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/global_metric_16">
+            <ImageView android:id="@id/fragment_device_configuration_wireless_uplink_list_item_image" android:layout_width="@dimen/global_metric_48" android:layout_height="@dimen/global_metric_48" android:src="@drawable/icon_unifi" />
+            <ImageView android:id="@id/fragment_device_configuration_wireless_uplink_list_item_locating" android:visibility="gone" android:layout_width="@dimen/global_metric_12" android:layout_height="@dimen/global_metric_12" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/global_metric_8" android:layout_weight="1.0">
+            <TextView android:id="@id/fragment_device_configuration_wireless_uplink_list_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemName" />
+            <Space android:layout_width="wrap_content" android:layout_height="@dimen/global_metric_8" />
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:id="@id/fragment_device_configuration_wireless_uplink_list_item_availability" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:id="@id/fragment_device_configuration_wireless_uplink_list_item_channel" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Space android:layout_width="wrap_content" android:layout_height="@dimen/global_metric_8" />
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption.Small" android:gravity="center" android:id="@id/fragment_device_configuration_wireless_uplink_list_item_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/fragment_device_configuration_wireless_uplink_list_item_separator" layout="@layout/view_separator" style="@style/ListItemSeparator" />
+</LinearLayout>

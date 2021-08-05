@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/fragment_status_list_radio_5g" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.UniFi.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/fragment_status_list_radio_5g_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/global_radio_5g_title_text" style="@style/StandaloneDeviceConfigurationTitle" />
+        <LinearLayout android:orientation="vertical" android:id="@id/fragment_status_list_radio_5g_layout" android:paddingLeft="@dimen/global_metric_16" android:paddingRight="@dimen/global_metric_16" android:paddingBottom="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/fragment_status_list_radio_5g_channel_layout" android:paddingTop="@dimen/global_metric_8" android:paddingBottom="@dimen/global_metric_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_status_list_radio_5g_channel_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_status_list_radio_channel_label_text" style="@style/StatusListLabel" />
+                <TextView android:id="@id/fragment_status_list_radio_5g_channel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StatusListValue" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/fragment_status_list_radio_5g_transmit_power_layout" android:paddingTop="@dimen/global_metric_8" android:paddingBottom="@dimen/global_metric_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_status_list_radio_5g_transmit_power_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_status_list_radio_transmit_power_label_text" style="@style/StatusListLabel" />
+                <TextView android:id="@id/fragment_status_list_radio_5g_transmit_power" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StatusListValue" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/fragment_status_list_radio_5g_connected_stations_layout" android:paddingTop="@dimen/global_metric_8" android:paddingBottom="@dimen/global_metric_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_status_list_radio_5g_connected_stations_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_status_list_radio_connected_stations_label_text" style="@style/StatusListLabel" />
+                <TextView android:id="@id/fragment_status_list_radio_5g_connected_stations" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StatusListValue" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/fragment_status_list_radio_5g_ssid_layout" android:paddingTop="@dimen/global_metric_8" android:paddingBottom="@dimen/global_metric_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_status_list_radio_5g_ssid_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_status_list_radio_ssid_label_text" style="@style/StatusListLabel" />
+                <TextView android:id="@id/fragment_status_list_radio_5g_ssid" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StatusListValue" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/fragment_status_list_radio_5g_encryption_layout" android:paddingTop="@dimen/global_metric_8" android:paddingBottom="@dimen/global_metric_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_status_list_radio_5g_encryption_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_status_list_radio_encryption_label_text" style="@style/StatusListLabel" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fragment_status_list_radio_5g_encryption_value_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/fragment_status_list_radio_5g_encryption_value_encrypted" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_status_list_radio_encryption_value_encrypted_text" style="@style/StatusListGrayBadge" />
+                    <TextView android:id="@id/fragment_status_list_radio_5g_encryption_value_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_status_list_radio_encryption_value_open_text" style="@style/StatusListRedBadge" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/fragment_status_list_radio_5g_rx_tx_layout" android:paddingTop="@dimen/global_metric_8" android:paddingBottom="@dimen/global_metric_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/fragment_status_list_radio_5g_rx_tx_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_status_list_radio_rx_tx_label_text" style="@style/StatusListLabel" />
+                <TextView android:id="@id/fragment_status_list_radio_5g_rx_tx" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StatusListValue" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/fragment_status_list_radio_5g_status_layout" android:padding="@dimen/global_metric_16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/fragment_status_list_radio_5g_status_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_status_list_radio_status_label_text" style="@style/StatusListLabel" />
+            <TextView android:id="@id/fragment_status_list_radio_5g_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fragment_status_list_radio_status_text" style="@style/StatusListRedBadge" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

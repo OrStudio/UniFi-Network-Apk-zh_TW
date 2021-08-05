@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?panel_ripple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/global_metric_16" android:paddingTop="@dimen/global_metric_12" android:paddingRight="@dimen/global_metric_16" android:paddingBottom="@dimen/global_metric_12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/fragment_insights_past_guest_authorization_list_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:id="@id/fragment_insights_past_guest_authorization_list_item_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_4" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/global_metric_8" android:layout_marginRight="@dimen/global_metric_8">
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption.Accent" android:gravity="right" android:id="@id/fragment_insights_past_guest_authorization_list_item_upload" android:padding="@dimen/global_metric_4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption.Green" android:gravity="right" android:id="@id/fragment_insights_past_guest_authorization_list_item_download" android:padding="@dimen/global_metric_4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:gravity="right" android:id="@id/fragment_insights_past_guest_authorization_list_item_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_4" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/view_separator" />
+</LinearLayout>
