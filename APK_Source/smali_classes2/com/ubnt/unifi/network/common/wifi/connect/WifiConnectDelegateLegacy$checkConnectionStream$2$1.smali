@@ -1,0 +1,161 @@
+.class final Lcom/ubnt/unifi/network/common/wifi/connect/WifiConnectDelegateLegacy$checkConnectionStream$2$1;
+.super Ljava/lang/Object;
+.source "WifiConnectDelegateLegacy.kt"
+
+# interfaces
+.implements Lio/reactivex/rxjava3/functions/Function;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/ubnt/unifi/network/common/wifi/connect/WifiConnectDelegateLegacy$checkConnectionStream$2;->apply(Lio/reactivex/rxjava3/core/Flowable;)Lorg/reactivestreams/Publisher;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        "R:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lio/reactivex/rxjava3/functions/Function<",
+        "Ljava/lang/Throwable;",
+        "Lorg/reactivestreams/Publisher<",
+        "+",
+        "Ljava/lang/Long;",
+        ">;>;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    bv = {
+        0x1,
+        0x0,
+        0x3
+    }
+    d1 = {
+        "\u0000\u0014\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\t\n\u0002\u0008\u0002\n\u0002\u0010\u0003\n\u0000\u0010\u0000\u001a*\u0012\u000e\u0008\u0001\u0012\n \u0003*\u0004\u0018\u00010\u00020\u0002 \u0003*\u0014\u0012\u000e\u0008\u0001\u0012\n \u0003*\u0004\u0018\u00010\u00020\u0002\u0018\u00010\u00010\u00012\u000e\u0010\u0004\u001a\n \u0003*\u0004\u0018\u00010\u00050\u0005H\n\u00a2\u0006\u0002\u0008\u0006"
+    }
+    d2 = {
+        "<anonymous>",
+        "Lorg/reactivestreams/Publisher;",
+        "",
+        "kotlin.jvm.PlatformType",
+        "it",
+        "",
+        "apply"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x4,
+        0x2
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic $counter:Ljava/util/concurrent/atomic/AtomicInteger;
+
+
+# direct methods
+.method constructor <init>(Ljava/util/concurrent/atomic/AtomicInteger;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/ubnt/unifi/network/common/wifi/connect/WifiConnectDelegateLegacy$checkConnectionStream$2$1;->$counter:Ljava/util/concurrent/atomic/AtomicInteger;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 12
+    check-cast p1, Ljava/lang/Throwable;
+
+    invoke-virtual {p0, p1}, Lcom/ubnt/unifi/network/common/wifi/connect/WifiConnectDelegateLegacy$checkConnectionStream$2$1;->apply(Ljava/lang/Throwable;)Lorg/reactivestreams/Publisher;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final apply(Ljava/lang/Throwable;)Lorg/reactivestreams/Publisher;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Throwable;",
+            ")",
+            "Lorg/reactivestreams/Publisher<",
+            "+",
+            "Ljava/lang/Long;",
+            ">;"
+        }
+    .end annotation
+
+    .line 81
+    instance-of v0, p1, Lcom/ubnt/unifi/network/common/wifi/connect/WifiConnectDelegateLegacy$NotYetConnectedException;
+
+    if-eqz v0, :cond_1
+
+    .line 82
+    iget-object v0, p0, Lcom/ubnt/unifi/network/common/wifi/connect/WifiConnectDelegateLegacy$checkConnectionStream$2$1;->$counter:Ljava/util/concurrent/atomic/AtomicInteger;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
+
+    move-result v0
+
+    const/4 v1, 0x5
+
+    if-eq v0, v1, :cond_0
+
+    const-wide/16 v0, 0xbb8
+
+    .line 83
+    sget-object p1, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+
+    invoke-static {v0, v1, p1}, Lio/reactivex/rxjava3/core/Flowable;->timer(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/rxjava3/core/Flowable;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    .line 85
+    :cond_0
+    new-instance v0, Lcom/ubnt/unifi/network/common/wifi/connect/WifiConnectDelegateLegacy$FailedToConnectToWifiException;
+
+    check-cast p1, Ljava/lang/Exception;
+
+    invoke-direct {v0, p1}, Lcom/ubnt/unifi/network/common/wifi/connect/WifiConnectDelegateLegacy$FailedToConnectToWifiException;-><init>(Ljava/lang/Exception;)V
+
+    check-cast v0, Ljava/lang/Throwable;
+
+    invoke-static {v0}, Lio/reactivex/rxjava3/core/Flowable;->error(Ljava/lang/Throwable;)Lio/reactivex/rxjava3/core/Flowable;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    .line 88
+    :cond_1
+    invoke-static {p1}, Lio/reactivex/rxjava3/core/Flowable;->error(Ljava/lang/Throwable;)Lio/reactivex/rxjava3/core/Flowable;
+
+    move-result-object p1
+
+    .line 81
+    :goto_0
+    check-cast p1, Lorg/reactivestreams/Publisher;
+
+    return-object p1
+.end method
