@@ -28,11 +28,11 @@
 *  我們可以從反編譯後的語言檔案檔案中看到官方的翻譯很不完整，甚至不到 10%
 ![1](https://github.com/cracky5322/UniFi-Network-Apk-zh_TW/blob/main/image/1.png?raw=true "1")
 ### 進度
-~~隨便寫一下~~
-- [ ] 基礎介面(10%)
-- [ ] UniFi 設定介面(5%)
-- [ ] APK 設定介面(0%)
-- [ ] 通知介面(0%)
+~~到底準不準我不知道QQ~~
+- [ ] 基礎介面(50%)
+- [ ] UniFi 設定介面(10%)
+- [ ] APK 設定介面(80%)
+- [ ] 通知介面(10%)
 ### 效果
 ![screenshot-1](https://github.com/cracky5322/UniFi-Network-Apk-zh_TW/blob/main/image/screenshot/1.png?raw=true "screenshot-1")
 ![screenshot-2](https://github.com/cracky5322/UniFi-Network-Apk-zh_TW/blob/main/image/screenshot/2.png?raw=true "screenshot-2")
