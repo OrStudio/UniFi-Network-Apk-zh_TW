@@ -1,6 +1,4 @@
-# UniFi-Network-Apk-zh_TW - 目錄
-
->UniFi Network 3.75 繁體中文化
+# UniFi Network 3.75 繁體中文化 - 目錄
 
 * [官方不認真，我們自己來](#官方不認真，我們自己來)
   * [契機](#契機)
