@@ -1,0 +1,115 @@
+{
+  "ad": {
+    "1080": {
+      "1": {"lower_frequency": 57240, "center_frequency": 58320, "upper_frequency": 59400, "sub_channels": [1]},
+      "2": {"lower_frequency": 59400, "center_frequency": 60480, "upper_frequency": 61560, "sub_channels": [2]},
+      "3": {"lower_frequency": 61560, "center_frequency": 62640, "upper_frequency": 63720, "sub_channels": [3]},
+      "4": {"lower_frequency": 63720, "center_frequency": 64800, "upper_frequency": 65880, "sub_channels": [4]},
+      "4.5": {"lower_frequency": 64800, "center_frequency": 65880, "upper_frequency": 66960, "sub_channels": [4.5]}
+    },
+    "2160": {
+      "1": {"lower_frequency": 57240, "center_frequency": 58320, "upper_frequency": 59400, "sub_channels": [1]},
+      "2": {"lower_frequency": 59400, "center_frequency": 60480, "upper_frequency": 61560, "sub_channels": [2]},
+      "3": {"lower_frequency": 61560, "center_frequency": 62640, "upper_frequency": 63720, "sub_channels": [3]},
+      "4": {"lower_frequency": 63720, "center_frequency": 64800, "upper_frequency": 65880, "sub_channels": [4]}
+    }
+  },
+  "ng": {
+    "20": {
+      "1": {"lower_frequency": 2401, "center_frequency": 2412, "upper_frequency": 2423, "sub_channels": [1]},
+      "2": {"lower_frequency": 2406, "center_frequency": 2417, "upper_frequency": 2428, "sub_channels": [2]},
+      "3": {"lower_frequency": 2411, "center_frequency": 2422, "upper_frequency": 2433, "sub_channels": [3]},
+      "4": {"lower_frequency": 2416, "center_frequency": 2427, "upper_frequency": 2438, "sub_channels": [4]},
+      "5": {"lower_frequency": 2421, "center_frequency": 2432, "upper_frequency": 2443, "sub_channels": [5]},
+      "6": {"lower_frequency": 2426, "center_frequency": 2437, "upper_frequency": 2448, "sub_channels": [6]},
+      "7": {"lower_frequency": 2431, "center_frequency": 2442, "upper_frequency": 2453, "sub_channels": [7]},
+      "8": {"lower_frequency": 2436, "center_frequency": 2447, "upper_frequency": 2458, "sub_channels": [8]},
+      "9": {"lower_frequency": 2441, "center_frequency": 2452, "upper_frequency": 2463, "sub_channels": [9]},
+      "10": {"lower_frequency": 2446, "center_frequency": 2457, "upper_frequency": 2468, "sub_channels": [10]},
+      "11": {"lower_frequency": 2451, "center_frequency": 2462, "upper_frequency": 2473, "sub_channels": [11]},
+      "12": {"lower_frequency": 2456, "center_frequency": 2467, "upper_frequency": 2478, "sub_channels": [12]},
+      "13": {"lower_frequency": 2461, "center_frequency": 2472, "upper_frequency": 2483, "sub_channels": [13]},
+      "14": {"lower_frequency": 2473, "center_frequency": 2484, "upper_frequency": 2495, "sub_channels": [14]}
+    },
+    "40": {
+      "3": {"lower_frequency": 2401, "center_frequency": 2422, "upper_frequency": 2443, "sub_channels": [1, 5]},
+      "4": {"lower_frequency": 2406, "center_frequency": 2427, "upper_frequency": 2448, "sub_channels": [2, 6]},
+      "5": {"lower_frequency": 2411, "center_frequency": 2432, "upper_frequency": 2453, "sub_channels": [3, 7]},
+      "6": {"lower_frequency": 2416, "center_frequency": 2437, "upper_frequency": 2458, "sub_channels": [4, 8]},
+      "7": {"lower_frequency": 2421, "center_frequency": 2442, "upper_frequency": 2463, "sub_channels": [5, 9]},
+      "8": {"lower_frequency": 2426, "center_frequency": 2447, "upper_frequency": 2468, "sub_channels": [6, 10]},
+      "9": {"lower_frequency": 2431, "center_frequency": 2452, "upper_frequency": 2473, "sub_channels": [7, 11]},
+      "10": {"lower_frequency": 2436, "center_frequency": 2457, "upper_frequency": 2478, "sub_channels": [8, 12]},
+      "11": {"lower_frequency": 2441, "center_frequency": 2462, "upper_frequency": 2483, "sub_channels": [9, 13]}
+    }
+  },
+  "na": {
+    "20": {
+      "7": {"lower_frequency": 5030, "center_frequency": 5035, "upper_frequency": 5040, "sub_channels": [7]},
+      "8": {"lower_frequency": 5030, "center_frequency": 5040, "upper_frequency": 5050, "sub_channels": [8]},
+      "9": {"lower_frequency": 5040, "center_frequency": 5045, "upper_frequency": 5050, "sub_channels": [9]},
+      "11": {"lower_frequency": 5050, "center_frequency": 5055, "upper_frequency": 5060, "sub_channels": [11]},
+      "12": {"lower_frequency": 5050, "center_frequency": 5060, "upper_frequency": 5070, "sub_channels": [12]},
+      "16": {"lower_frequency": 5070, "center_frequency": 5080, "upper_frequency": 5090, "sub_channels": [16]},
+      "36": {"lower_frequency": 5170, "center_frequency": 5180, "upper_frequency": 5190, "sub_channels": [36]},
+      "40": {"lower_frequency": 5190, "center_frequency": 5200, "upper_frequency": 5210, "sub_channels": [40]},
+      "44": {"lower_frequency": 5210, "center_frequency": 5220, "upper_frequency": 5230, "sub_channels": [44]},
+      "48": {"lower_frequency": 5230, "center_frequency": 5240, "upper_frequency": 5250, "sub_channels": [48]},
+      "52": {"lower_frequency": 5250, "center_frequency": 5260, "upper_frequency": 5270, "sub_channels": [52]},
+      "56": {"lower_frequency": 5270, "center_frequency": 5280, "upper_frequency": 5290, "sub_channels": [56]},
+      "60": {"lower_frequency": 5290, "center_frequency": 5300, "upper_frequency": 5310, "sub_channels": [60]},
+      "64": {"lower_frequency": 5310, "center_frequency": 5320, "upper_frequency": 5330, "sub_channels": [64]},
+      "100": {"lower_frequency": 5490, "center_frequency": 5500, "upper_frequency": 5510, "sub_channels": [100]},
+      "104": {"lower_frequency": 5510, "center_frequency": 5520, "upper_frequency": 5530, "sub_channels": [104]},
+      "108": {"lower_frequency": 5530, "center_frequency": 5540, "upper_frequency": 5550, "sub_channels": [108]},
+      "112": {"lower_frequency": 5550, "center_frequency": 5560, "upper_frequency": 5570, "sub_channels": [112]},
+      "116": {"lower_frequency": 5570, "center_frequency": 5580, "upper_frequency": 5590, "sub_channels": [116]},
+      "120": {"lower_frequency": 5590, "center_frequency": 5600, "upper_frequency": 5610, "sub_channels": [120]},
+      "124": {"lower_frequency": 5610, "center_frequency": 5620, "upper_frequency": 5630, "sub_channels": [124]},
+      "128": {"lower_frequency": 5630, "center_frequency": 5640, "upper_frequency": 5650, "sub_channels": [128]},
+      "132": {"lower_frequency": 5650, "center_frequency": 5660, "upper_frequency": 5670, "sub_channels": [132]},
+      "136": {"lower_frequency": 5670, "center_frequency": 5680, "upper_frequency": 5690, "sub_channels": [136]},
+      "140": {"lower_frequency": 5690, "center_frequency": 5700, "upper_frequency": 5710, "sub_channels": [140]},
+      "144": {"lower_frequency": 5710, "center_frequency": 5720, "upper_frequency": 5730, "sub_channels": [144]},
+      "149": {"lower_frequency": 5735, "center_frequency": 5745, "upper_frequency": 5755, "sub_channels": [149]},
+      "153": {"lower_frequency": 5755, "center_frequency": 5765, "upper_frequency": 5775, "sub_channels": [153]},
+      "157": {"lower_frequency": 5775, "center_frequency": 5785, "upper_frequency": 5795, "sub_channels": [157]},
+      "161": {"lower_frequency": 5795, "center_frequency": 5805, "upper_frequency": 5815, "sub_channels": [161]},
+      "165": {"lower_frequency": 5815, "center_frequency": 5825, "upper_frequency": 5835, "sub_channels": [165]},
+      "183": {"lower_frequency": 4910, "center_frequency": 4915, "upper_frequency": 4920, "sub_channels": [183]},
+      "184": {"lower_frequency": 4910, "center_frequency": 4920, "upper_frequency": 4930, "sub_channels": [184]},
+      "185": {"lower_frequency": 4920, "center_frequency": 4925, "upper_frequency": 4930, "sub_channels": [185]},
+      "187": {"lower_frequency": 4930, "center_frequency": 4935, "upper_frequency": 4940, "sub_channels": [187]},
+      "188": {"lower_frequency": 4930, "center_frequency": 4940, "upper_frequency": 4950, "sub_channels": [188]},
+      "189": {"lower_frequency": 4940, "center_frequency": 4945, "upper_frequency": 4950, "sub_channels": [189]},
+      "192": {"lower_frequency": 4950, "center_frequency": 4960, "upper_frequency": 4970, "sub_channels": [192]},
+      "196": {"lower_frequency": 4970, "center_frequency": 4980, "upper_frequency": 4990, "sub_channels": [196]}
+    },
+    "40": {
+      "38": {"lower_frequency": 5170, "center_frequency": 5190, "upper_frequency": 5210, "sub_channels": [36, 40]},
+      "46": {"lower_frequency": 5210, "center_frequency": 5230, "upper_frequency": 5250, "sub_channels": [44, 48]},
+      "54": {"lower_frequency": 5250, "center_frequency": 5270, "upper_frequency": 5290, "sub_channels": [52, 56]},
+      "62": {"lower_frequency": 5290, "center_frequency": 5310, "upper_frequency": 5330, "sub_channels": [60, 64]},
+      "102": {"lower_frequency": 5490, "center_frequency": 5510, "upper_frequency": 5530, "sub_channels": [100, 104]},
+      "110": {"lower_frequency": 5530, "center_frequency": 5550, "upper_frequency": 5570, "sub_channels": [108, 112]},
+      "118": {"lower_frequency": 5570, "center_frequency": 5590, "upper_frequency": 5610, "sub_channels": [116, 120]},
+      "126": {"lower_frequency": 5610, "center_frequency": 5630, "upper_frequency": 5650, "sub_channels": [124, 128]},
+      "134": {"lower_frequency": 5650, "center_frequency": 5670, "upper_frequency": 5690, "sub_channels": [132, 136]},
+      "142": {"lower_frequency": 5690, "center_frequency": 5710, "upper_frequency": 5730, "sub_channels": [140, 144]},
+      "151": {"lower_frequency": 5735, "center_frequency": 5755, "upper_frequency": 5775, "sub_channels": [149, 153]},
+      "159": {"lower_frequency": 5775, "center_frequency": 5795, "upper_frequency": 5815, "sub_channels": [157, 161]}
+    },
+    "80": {
+      "42": {"lower_frequency": 5170, "center_frequency": 5190, "upper_frequency": 5250, "sub_channels": [36, 40, 44, 48]},
+      "58": {"lower_frequency": 5250, "center_frequency": 5270, "upper_frequency": 5330, "sub_channels": [52, 56, 60, 64]},
+      "106": {"lower_frequency": 5490, "center_frequency": 5510, "upper_frequency": 5570, "sub_channels": [100, 104, 108, 112]},
+      "122": {"lower_frequency": 5570, "center_frequency": 5590, "upper_frequency": 5650, "sub_channels": [116, 120, 124, 128]},
+      "138": {"lower_frequency": 5650, "center_frequency": 5670, "upper_frequency": 5730, "sub_channels": [132, 136, 140, 144]},
+      "155": {"lower_frequency": 5735, "center_frequency": 5755, "upper_frequency": 5815, "sub_channels": [149, 153, 157, 161]}
+    },
+    "160": {
+      "50": {"lower_frequency": 5170, "center_frequency": 5250, "upper_frequency": 5330, "sub_channels": [36, 40, 44, 48, 52, 56, 60, 64]},
+      "114": {"lower_frequency": 5490, "center_frequency": 5570, "upper_frequency": 5650, "sub_channels": [100, 104, 108, 112, 116, 120, 124, 128]}
+    }
+  }
+}
