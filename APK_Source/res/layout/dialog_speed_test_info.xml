@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:padding="@dimen/global_metric_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fragment_padding_horizontal" android:layout_marginTop="@dimen/fragment_padding_vertical" android:layout_marginRight="@dimen/fragment_padding_horizontal" android:layout_marginBottom="@dimen/fragment_padding_vertical">
-        <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/dialog_speed_test_info_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_speed_test_info_message_text" />
-        <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/dialog_speed_test_info_caption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" android:text="@string/dialog_speed_test_info_caption_text" />
-        <TextView android:textAppearance="@style/TextAppearance.UniFi.Body1" android:id="@id/dialog_speed_test_info_caption_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_16" android:text="@string/dialog_speed_test_info_caption_2_text" />
-    </LinearLayout>
-</ScrollView>

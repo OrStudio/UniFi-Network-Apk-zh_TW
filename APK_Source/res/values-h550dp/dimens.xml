@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="fragment_padding_horizontal">8.0dip</dimen>
-    <dimen name="fragment_padding_vertical">8.0dip</dimen>
-    <dimen name="fragment_padding_vertical_half">8.0dip</dimen>
-</resources>

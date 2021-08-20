@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/global_selector_clickable_item_bg" android:paddingLeft="@dimen/global_metric_4" android:paddingTop="@dimen/global_metric_8" android:paddingRight="@dimen/global_metric_4" android:paddingBottom="@dimen/global_metric_8" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ProgressBar android:id="@id/fragment_device_detail_rf_scan_item_image" android:background="?android:textColorSecondary" android:layout_width="@dimen/fragment_device_detail_rf_scan_item_dimensions" android:layout_height="@dimen/fragment_device_detail_rf_scan_item_dimensions" android:max="10" android:indeterminateOnly="false" android:progressDrawable="@drawable/layer_list_progress_min" android:rotation="270.0" />
-    <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:textSize="@dimen/fragment_device_detail_details_port_preview_list_item_text_size" android:gravity="center" android:id="@id/fragment_device_detail_rf_scan_item_channel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/global_metric_8" android:minWidth="@dimen/global_metric_28" />
-</LinearLayout>

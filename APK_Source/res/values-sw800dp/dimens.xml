@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="activity_horizontal_margin">96.0dip</dimen>
-    <dimen name="fragment_padding_horizontal">96.0dip</dimen>
-    <dimen name="fragment_padding_vertical">96.0dip</dimen>
-    <dimen name="fragment_padding_vertical_half">48.0dip</dimen>
-</resources>

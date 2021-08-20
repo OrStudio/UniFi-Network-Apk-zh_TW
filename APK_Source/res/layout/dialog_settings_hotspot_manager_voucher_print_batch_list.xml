@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:padding="@dimen/hotspot_manager_voucher_print_batch_dialog_body_padding_top" android:paddingLeft="@dimen/hotspot_manager_voucher_print_batch_dialog_body_padding_left" android:paddingRight="@dimen/hotspot_manager_voucher_print_batch_dialog_body_padding_right" android:paddingBottom="@dimen/hotspot_manager_voucher_print_batch_dialog_body_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/hotspot_manager_voucher_print_batch_dialog_body_padding_left" android:paddingEnd="@dimen/hotspot_manager_voucher_print_batch_dialog_body_padding_left"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@id/hotspot_manager_voucher_print_batch_dialog_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</FrameLayout>

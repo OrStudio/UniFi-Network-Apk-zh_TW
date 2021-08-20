@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/container_content" layout="@layout/fragment_throughput_test_content" />
-    <include android:id="@id/container_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/placeholder_progress" />
-    <include android:id="@id/container_offline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/placeholder_offline" />
-    <include android:id="@id/container_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/placeholder_empty" />
-</FrameLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="false" style="?panel_background"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/container_content" layout="@layout/fragment_settings_site_content" />
-    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fragment_settings_site_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/global_metric_16" android:src="@drawable/icon_done" />
-    <include android:id="@id/container_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/placeholder_progress" />
-    <include android:id="@id/container_offline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/placeholder_offline" />
-    <include android:id="@id/container_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/placeholder_empty" />
-</androidx.coordinatorlayout.widget.CoordinatorLayout>

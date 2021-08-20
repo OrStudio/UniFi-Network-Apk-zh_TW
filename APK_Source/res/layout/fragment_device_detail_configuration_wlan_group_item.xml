@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:id="@id/fragment_device_detail_configuration_wlan_group_item_name" android:padding="@dimen/global_metric_8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <TextView android:textAppearance="@style/TextAppearance.UniFi.Caption" android:ellipsize="end" android:gravity="right" android:id="@id/fragment_device_detail_configuration_wlan_group_item_overrides" android:padding="@dimen/global_metric_8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/global_metric_8" android:singleLine="true" android:layout_weight="1.0" />
-    <ImageView android:id="@id/fragment_device_detail_configuration_wlan_group_item_edit" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/global_metric_8" android:src="@drawable/icon_edit" android:tint="@color/global_color_accent" />
-    <ImageView android:id="@id/fragment_device_detail_configuration_wlan_group_item_revert" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/global_metric_8" android:src="@drawable/icon_revert" android:tint="@color/global_color_accent" />
-</LinearLayout>
