@@ -109,7 +109,7 @@
     <string name="advanced_features_network_isolation_create_title">新增網路隔離</string>
     <string name="advanced_features_network_isolation_create_trusted_server_empty_error">此欄位不能為空</string>
     <string name="advanced_features_network_isolation_create_trusted_server_ip_address_error">此欄位必須是一個有效的IPv4地址</string>
-    <string name="advanced_features_network_isolation_detail_delete_dialog_message">你真的想刪除這個網路隔離嗎？
+    <string name="advanced_features_network_isolation_detail_delete_dialog_message">你真的想刪除這個網路隔離嗎？</string>
     <string name="advanced_features_network_isolation_detail_delete_dialog_negative">Cancel</string>
     <string name="advanced_features_network_isolation_detail_delete_dialog_positive">Remove</string>
     <string name="advanced_features_network_isolation_detail_delete_dialog_title">Remove Network Isolation</string>
@@ -272,7 +272,7 @@
     <string name="client_detail_configure_reconnecting">重新連線...</string>
     <string name="client_detail_configure_unblock">取消封鎖</string>
     <string name="client_detail_configure_unblocked">unblocked</string>
-    <string name="client_detail_configure_unblocking">Unblocking</string></p><p
+    <string name="client_detail_configure_unblocking">Unblocking</string>
     <string name="client_detail_configure_user_group_fallback">定義為WLAN頻寬配置檔案</string>
     <string name="client_detail_configure_user_group_label">頻寬配置檔案</string>
     <string name="client_detail_configure_user_group_title">Bandwidth Profile</string>
