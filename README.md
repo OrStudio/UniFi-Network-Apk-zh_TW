@@ -1,4 +1,4 @@
-# UniFi Network 3.75 繁體中文化 - 目錄
+# UniFi Network 3.10.6 繁體中文化 - 目錄
 
 * [官方不認真，我們自己來](#官方不認真，我們自己來)
   * [契機](#契機)
@@ -19,7 +19,8 @@
 再加上官方從軟體上封鎖原本既有的翻譯，  
 所以決定反編譯後重新翻譯打包。
 
-*  首先 Unifi 官方將以翻譯的部分語言檔完全封鎖  
+*  首先 Unifi 官方將以翻譯的部分語言檔完全封鎖
+在某次改版後限制已被移除
 我們可以在 `smali_classes2\com\ubnt\UnifiConfig.smali` 中找到 `USE_ONLY_EN_LOCALE`  
 可以看到是開啟(true)的狀態，這個部份我已經在放上反編譯後的程式碼中做了修正，  
 基本上我們可以修改 values-zh-rTW 中的語系即可完成翻譯。
@@ -28,10 +29,7 @@
 ![1](https://github.com/cracky5322/UniFi-Network-Apk-zh_TW/blob/main/image/1.png?raw=true "1")
 ### 進度
 ~~到底準不準我不知道QQ~~
-- [ ] 基礎介面(50%)
-- [ ] UniFi 設定介面(10%)
-- [ ] APK 設定介面(80%)
-- [ ] 通知介面(10%)
+- [ ] 整體進度(35%)
 ### 效果
 ![screenshot-1](https://github.com/cracky5322/UniFi-Network-Apk-zh_TW/blob/main/image/screenshot/1.png?raw=true "screenshot-1")
 ![screenshot-2](https://github.com/cracky5322/UniFi-Network-Apk-zh_TW/blob/main/image/screenshot/2.png?raw=true "screenshot-2")
