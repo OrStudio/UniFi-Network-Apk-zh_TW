@@ -23,6 +23,7 @@
 我們可以在 `smali_classes2\com\ubnt\UnifiConfig.smali` 中找到 `USE_ONLY_EN_LOCALE`  
 可以看到是開啟(true)的狀態，這個部份我已經在放上反編譯後的程式碼中做了修正，  
 基本上我們可以修改 values-zh-rTW 中的語系即可完成翻譯。~~  
+  
 在某次改版後恢復正常不再限制
 
 
